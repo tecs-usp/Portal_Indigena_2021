@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    background-image: url("Imagem_casa_inicio_vermelha.jpg"), url("Imagem_fundo_blur.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat, repeat;
+    font-family: Petrona;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #7a1a11;
+  opacity: 0.95;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav span {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  display: block;
+}
+
+.nav {
+    border: 1px solid #7a1a11;
+    background: #7a1a11;
+    opacity: 0.8;
+}
+
+.rectangle {
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 2%;
+    margin-left: 15%;
+    height: 23px;
+    width: 23px;
+}
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.titulo {
+    color: white;
+    opacity: 1;
+    font-size: 20px;
+}
+
+.fundo_retangulo {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 48px;
+    width: 48px;
+}
+
+.linha {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 3px;
+    width: 120px;
+}
+
+.introducao {
+    margin-top: 90px;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.texto_bem_vindo {
+    margin-top: 5px;
+    height: 50px;
+}
+
+#bem_vindo {
+    color: #767676;
+    height: 20%;
+}
+
+#portal_indigena {
+    color: #e78a6d;
+    height: 20%;
+}
+
+.centralizar_logo {
+    margin-top: 10px;
+}
+
+.cartao {
+    width: 12rem;
+    height: 10rem;
+    margin-top: 30px;
+    background-color: rgba(100, 47, 30, 0.6);
+    color: #ffffff;
+}
+
+.page-footer {
+    background-color: #510000;
+    bottom: 1;
+    color: #ffffff;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.email {
+    
+}
