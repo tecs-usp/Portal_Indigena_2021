@@ -12,7 +12,7 @@
 }
 
 .navbar {
-    background-color: rgba(101, 19, 19, 0.88);
+    background-color: rgba(101, 19, 19, 0.80);
     padding: 5px;
     padding-right: 2.5%;
     padding-left: 2.5%;
@@ -33,9 +33,10 @@
 .navbar-nav {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    font-size: 36px;
+    font-size: 28px;
     font-family: "Petrona Regular", "Arial";
     margin-left: 30px;
 }
@@ -46,7 +47,7 @@
 
 .navbar-nav .nav-item:not(:last-child) {
     border-right: 5px solid #FFFFFF;
-    padding-right: 100px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -66,5 +67,30 @@
     height: 60vh;
     background-image: url("../img/Imagem_casa_inicio_vermelha.jpg");
     background-size: cover;
-    background-position: center 970px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner p {
+    font-family: "Petrona Regular";
+    font-size: 28px;
+    text-align: center;
+    line-height: 130%;
+    color: #767676;
+}
+
+.banner__text--orange {
+    color: #E78A6D;
+}
+
+.banner img {
+    width: 100px;
 }
