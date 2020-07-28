@@ -11,6 +11,10 @@
     box-sizing: inherit;
 }
 
+body {
+    font-family: "Petrona Regular";
+}
+
 .navbar {
     background-color: rgba(101, 19, 19, 0.80);
     padding: 5px;
@@ -37,7 +41,6 @@
     align-items: center;
     justify-content: space-around;
     font-size: 28px;
-    font-family: "Petrona Regular", "Arial";
     margin-left: 30px;
 }
 
@@ -80,7 +83,6 @@
 }
 
 .banner p {
-    font-family: "Petrona Regular";
     font-size: 28px;
     text-align: center;
     line-height: 130%;
@@ -93,4 +95,66 @@
 
 .banner img {
     width: 100px;
+}
+
+.bottom-section {
+    background-image: url("../img/imagem_fundo_blur.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+
+.banner__section {
+    justify-content: center;
+    background-color: rgba(101, 19, 19, 0.88);
+}
+
+.banner__section p {
+    color: #FFFFFF;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+.card-item {
+    margin-top: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 375px;
+}
+
+.card-item .item-img {
+    width: 100%;
+}
+
+.card-item .item-text{
+    background-color: rgba(100, 47, 30, 0.6);
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 26px;
+}
+
+.banner-footer {
+    justify-content: space-between;
+    background-color: rgba(88, 17, 17, 1);
+    color: #FFFFFF;
+    font-family: "Petrona Regular";
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-redes-sociais {
+    width: 40px !important;
 }
