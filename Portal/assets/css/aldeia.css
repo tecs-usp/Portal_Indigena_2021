@@ -68,7 +68,7 @@ body {
 .header-img-top {
     width: 100%;
     height: 60vh;
-    background-image: url("../img/Imagem_casa_inicio_vermelha.jpg");
+    background-image: url("../img/habitacao_yyrexaka.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -82,65 +82,59 @@ body {
     align-items: center;
 }
 
-.banner p {
-    font-size: 28px;
+.titulo-descricao{
     text-align: center;
-    line-height: 130%;
-    color: #767676;
+    font-size: 25px;
+    padding:20px 0;
+    background: #926e62;
+    color: #ffffff;
 }
 
-.banner__text--orange {
-    color: #E78A6D;
+.conteudo-aldeia{
+    margin: 10px 100px;
+    line-height: 25px;
 }
 
+.conteudo-aldeia p {
+    margin-top: 15px;
+
+}
+.conteudo-aldeia h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.historia-aldeia{
+    margin: 10px 100px;
+    line-height: 25px;
+}
+
+.historia-aldeia p {
+    margin-top: 15px;
+
+}
+.historia-aldeia h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.localizacao p, h2{
+    margin: 10px 100px;
+    line-height: 25px;
+}
+
+.localizacao p {
+    margin: 10px 0;
+    text-align: center;
+}
+.localizacao h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
 .banner img {
     width: 100px;
-}
-
-.bottom-section {
-    background-image: url("../img/imagem_fundo_blur.jpeg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding-bottom: 5%;
-}
-
-.banner__section {
-    justify-content: center;
-    background-color: rgba(101, 19, 19, 0.88);
-}
-
-.banner__section p {
-    color: #FFFFFF;
-}
-
-.cards {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 5%;
-}
-
-.card-item {
-    margin-top: 2%;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 375px;
-}
-
-.card-item .item-img {
-    width: 100%;
-}
-
-.card-item .item-text{
-    background-color: rgba(100, 47, 30, 0.6);
-    display: block;
-    padding: 5px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 26px;
 }
 
 .banner-footer {
