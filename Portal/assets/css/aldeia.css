@@ -157,3 +157,23 @@ body {
     color:#ffffff;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .conteudo-aldeia, .historia-aldeia {
+        margin: 10px 40px;
+        margin-top: 10%;
+        text-align: justify;
+    }
+
+    .conteudo-aldeia h2, .historia-aldeia h2 {
+        margin: 10px 10px;
+    }
+}
