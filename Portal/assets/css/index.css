@@ -211,6 +211,11 @@ body {
         font-size: 0.875em;
     }
 
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
     .navbar {
         background-color: rgb(101, 19, 19);
         position: fixed;
