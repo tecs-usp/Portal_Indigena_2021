@@ -14,16 +14,26 @@
 
 <body>
     <header>
+        <nav class="navbar-mobile">
+            <img onclick="openMenu()" src="assets/img/menu_icon_open.svg" alt="Menu Open">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <span><a href="index.html">Portal Indígena</a></span>
+                </li>
+            </ul>
+        </nav>
         <nav class="navbar">
             <a href="/" class="navbar-brand">
                 <img src="assets/img/logo.svg" alt="logo">
             </a>
+            <img onclick="closeMenu()"
+                class="menu-close__icon"
+                src="assets/img/menu_icon_close.svg" alt="Menu Close">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="/">Portal Indígena</a>
                 </li>
-                <li class="nav-item"><a href="/">Início</a></li>
-                <li class="nav-item">
+                <li class="nav-item nav-item--flex">
                     <span><a href="aldeia-guawiraty.html">Guawiraty</a></span>
                     <span><a href="aldeia-tangara.html">Tangará</a></span>
                     <span><a href="aldeia-yyrexaka.html">Yyrexakã</a></span>
@@ -76,7 +86,18 @@
             <img src="assets/img/facebook.svg" class="logo-redes-sociais">
         </div>
     </footer>
+    
+    <script>
+        function openMenu() {
+            var navbar = document.getElementsByClassName("navbar")[0];
+            navbar.style.left = "0";
+        }
 
+        function closeMenu() {
+            var navbar = document.getElementsByClassName("navbar")[0];
+            navbar.style.left = "-80%";
+        }
+    </script>
 </body>
 
 </html>

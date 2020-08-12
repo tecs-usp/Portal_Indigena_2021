@@ -17,6 +17,7 @@ body {
 }
 
 .navbar {
+    position: relative;
     background-color: rgba(101, 19, 19, 0.80);
     padding: 5px;
     padding-right: 2.5%;
@@ -42,28 +43,67 @@ body {
     align-items: center;
     justify-content: space-around;
     font-size: 1.75em;
-    margin-left: 30px;
 }
 
 .navbar-nav .nav-item {
     display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.navbar-nav .nav-item:nth-child(2) {
+    flex: 2;
 }
 
 .navbar-nav .nav-item:not(:last-child) {
     border-right: 5px solid #FFFFFF;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
+.nav-item.nav-item--flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
-.navbar-nav .nav-item span:not(:first-child) {
-    margin-left: 60px;
+.nav-item span:not(:last-child) {
+    padding-right: 10px;
+}
+
+.nav-item span:first-child {
+    padding-left: 12px;
 }
 
 .navbar-nav .nav-item a {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.navbar-mobile {
+    position: sticky;
+    top: 0px;
+    background-color: rgba(101, 19, 19, 0.80);
+    padding: 2.5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    width: 100%;
+    align-items: center;
+    float: left;
+    display: none;
+}
+
+.navbar-mobile .navbar-nav {
+    justify-content: flex-start;
+}
+
+.menu-close__icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
 }
 
 .header-img-top {
@@ -172,7 +212,57 @@ body {
     }
 
     .navbar {
-        display: none;
+        background-color: rgb(101, 19, 19);
+        position: fixed;
+        top: 0;
+        left: -80%;
+        width: 80%;
+        height: 100vh;
+        padding: 5%;
+        display: block;
+        transition: left 1s;
+    }
+
+    .navbar .navbar-nav {
+        margin-left: 0px;
+        margin-top: 15%;
+        display: block;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        width: 100%;
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        border-top: 5px solid #FFFFFF;
+    }
+
+    .navbar .navbar-nav .nav-item:last-child {
+        border-bottom: 5px solid #FFFFFF;
+    }
+
+    .navbar .navbar-nav .nav-item:not(:last-child) {
+        border-right: 0px;
+    }
+
+    .nav-item.nav-item--flex {
+        flex-direction: column;
+    }
+
+    .nav-item.nav-item--flex span:not(:first-child) {
+        margin-top: 5%;
+    }
+
+    .navbar-mobile {
+        display: flex;
+    }
+
+    .menu-close__icon {
+        display: block;    
+    }
+
+    .navbar-mobile .nav-item {
+        text-align: left;
     }
 
     .banner img {
@@ -211,8 +301,13 @@ body {
     .bottom-section {
         background-image: url("../img/aldeia_panoramica_mobile.jpeg");
         background-size: cover;
-        background-repeat: repeat-y;
-        
+        background-repeat: repeat-y;   
     }
     
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .navbar {
+        width: 40%;
+    }
 }

@@ -88,7 +88,7 @@ body {
 
 .conteudo-aldeia p, .historia-aldeia p {
     margin-top: 15px;
-
+    text-align: justify;
 }
 .conteudo-aldeia h2, .historia-aldeia h2 {
     text-align: center;
