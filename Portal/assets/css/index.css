@@ -1,109 +1,9 @@
-@font-face{
-    font-family: "Petrona Regular";
-    src: url("../fonts/Petrona-Regular.ttf");
-}
-
-:root {
-    box-sizing: border-box;
-}
-
-* {
-    box-sizing: inherit;
-}
-
-body {
-    font-family: "Petrona Regular";
-    font-size: 1em;
-}
-
 .navbar {
-    position: relative;
     background-color: rgba(101, 19, 19, 0.80);
-    padding: 5px;
-    padding-right: 2.5%;
-    padding-left: 2.5%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    float: left;
-}
-
-.navbar .navbar-brand {
-    display: inline-block;
-}
-
-.navbar .navbar-brand img {
-    height: 70px;
-}
-    
-.navbar-nav {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 1.75em;
-}
-
-.navbar-nav .nav-item {
-    display: inline-block;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    flex: 1;
-    text-align: center;
-}
-
-.navbar-nav .nav-item:nth-child(2) {
-    flex: 2;
-}
-
-.navbar-nav .nav-item:not(:last-child) {
-    border-right: 5px solid #FFFFFF;
-}
-
-.nav-item.nav-item--flex {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.nav-item span:not(:last-child) {
-    padding-right: 10px;
-}
-
-.nav-item span:first-child {
-    padding-left: 12px;
-}
-
-.navbar-nav .nav-item a {
-    text-decoration: none;
-    color: #FFFFFF;
 }
 
 .navbar-mobile {
-    position: sticky;
-    top: 0px;
-    background-color: rgba(101, 19, 19, 0.80);
-    padding: 2.5%;
-    padding-right: 2.5%;
-    padding-left: 2.5%;
-    width: 100%;
-    align-items: center;
-    float: left;
-    display: none;
-}
-
-.navbar-mobile .navbar-nav {
-    justify-content: flex-start;
-}
-
-.menu-close__icon {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    display: none;
+    background-color: rgba(101, 19, 19, 0.8);
 }
 
 .header-img-top {
@@ -185,89 +85,13 @@ body {
     font-size: 1.6em;
 }
 
-.banner-footer {
-    justify-content: space-between;
-    background-color: rgba(88, 17, 17, 1);
-    color: #FFFFFF;
-    font-family: "Petrona Regular";
-}
-
-.logos {
-    display: flex;
-    justify-content: center;
-}
-
-.logo-redes-sociais {
-    width: 40px !important;
-}
-
-.email {
-    color:#ffffff;
-    text-decoration: none;
-}
-
 @media only screen and (max-width: 768px) {
     body {
         font-size: 0.875em;
     }
 
-    header {
-        position: fixed;
-        width: 100%;
-    }
-
     .navbar {
-        background-color: rgb(101, 19, 19);
-        position: fixed;
-        top: 0;
-        left: -80%;
-        width: 80%;
-        height: 100vh;
-        padding: 5%;
-        display: block;
-        transition: left 1s;
-    }
-
-    .navbar .navbar-nav {
-        margin-left: 0px;
-        margin-top: 15%;
-        display: block;
-    }
-
-    .navbar .navbar-nav .nav-item {
-        width: 100%;
-        text-align: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        border-top: 5px solid #FFFFFF;
-    }
-
-    .navbar .navbar-nav .nav-item:last-child {
-        border-bottom: 5px solid #FFFFFF;
-    }
-
-    .navbar .navbar-nav .nav-item:not(:last-child) {
-        border-right: 0px;
-    }
-
-    .nav-item.nav-item--flex {
-        flex-direction: column;
-    }
-
-    .nav-item.nav-item--flex span:not(:first-child) {
-        margin-top: 5%;
-    }
-
-    .navbar-mobile {
-        display: flex;
-    }
-
-    .menu-close__icon {
-        display: block;    
-    }
-
-    .navbar-mobile .nav-item {
-        text-align: left;
+        background-color: rgba(101, 19, 19, 1);
     }
 
     .banner img {
@@ -309,10 +133,4 @@ body {
         background-repeat: repeat-y;   
     }
     
-}
-
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-    .navbar {
-        width: 40%;
-    }
 }

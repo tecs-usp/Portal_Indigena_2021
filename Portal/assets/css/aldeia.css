@@ -150,10 +150,6 @@ body {
         font-size: 14px;
     }
 
-    .navbar {
-        display: none;
-    }
-
     .conteudo-aldeia, .historia-aldeia {
         margin: 10px 40px;
         margin-top: 10%;

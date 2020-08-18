@@ -1,0 +1,102 @@
+@font-face{
+    font-family: "Petrona Regular";
+    src: url("../fonts/Petrona-Regular.ttf")
+}
+
+.total {
+    width: 100%;
+    display: flex;
+}
+
+.menu-lateral {
+    display: flex;
+    background: #642F1E;
+    height: 100vh;
+    width: 350px;
+    position: sticky;
+    top: 0;
+}
+
+.menu-content {
+    top: 0;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: justify;
+    padding: 3%;
+    margin: 10px 60px;
+}
+
+.conteudo-titulo {
+    text-align: center;
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-size: 1.875em;
+}
+
+.conteudo p {
+    line-height: 165%;
+    margin-top: 10px;
+}
+
+.conteudo img {
+    margin-top: 3%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.conteudo span {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.img-wrapper {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.imagem-tangara-menu{
+    width: 70%;
+}
+
+.titulo-menu {
+    font-size: 45px;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.menu-lateral ul li{
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.menu-lateral ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu-lateral ul li a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-lateral {
+        display: none;
+    }
+
+    .conteudo {
+        margin: 0px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding: 30px;
+    }
+}
