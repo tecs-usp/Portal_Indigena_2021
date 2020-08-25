@@ -15,55 +15,6 @@ body {
     font-family: "Petrona Regular";
 }
 
-.navbar {
-    background-color: rgba(101, 19, 19, 1);
-    padding: 5px;
-    padding-right: 2.5%;
-    padding-left: 2.5%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.navbar .navbar-brand {
-    display: inline-block;
-}
-
-.navbar .navbar-brand img {
-    height: 70px;
-}
-    
-.navbar-nav {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 28px;
-    margin-left: 30px;
-}
-
-.navbar-nav .nav-item {
-    display: inline-block;
-}
-
-.navbar-nav .nav-item:not(:last-child) {
-    border-right: 5px solid #FFFFFF;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-.navbar-nav .nav-item span:not(:first-child) {
-    margin-left: 60px;
-}
-
-.navbar-nav .nav-item a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
 .header-img-top {
     width: 100%;
     height: 60vh;
@@ -71,14 +22,6 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-}
-
-.titulo-descricao{
-    text-align: center;
-    font-size: 25px;
-    padding:20px 0;
-    background: #926e62;
-    color: #ffffff;
 }
 
 .conteudo-aldeia, .historia-aldeia{
@@ -166,6 +109,7 @@ body {
 
 .total {
     display: flex;
+    width: 100%;
 }
 
 .menu-lateral {
@@ -181,6 +125,10 @@ body {
 
 .conteudo {
     flex: 1;
+}
+
+.conteudo p {
+    line-height: 165%;
 }
 
 .imagem-tangara-menu{
@@ -211,4 +159,13 @@ body {
 
 .menu-lateral ul li a:hover {
     text-decoration: underline;
+}
+
+.conteudo h2 {
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.localizacao h2 {
+    padding-bottom: 0%;
 }

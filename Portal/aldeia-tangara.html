@@ -9,20 +9,32 @@
 
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/aldeia.css">
+        <link rel="stylesheet" href="assets/css/menu.css">
 
     </head>
 
     <body>
         <header>
+            <nav class="navbar-mobile">
+                <img onclick="openMenu()" src="assets/img/menu_icon_open.svg" alt="Menu Open">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <span><a href="index.html">Portal Indígena</a></span>
+                    </li>
+                </ul>
+            </nav>
             <nav class="navbar">
                 <a href="index.html" class="navbar-brand">
                     <img src="assets/img/logo.svg" alt="logo">
                 </a>
+                <img onclick="closeMenu()"
+                    class="menu-close__icon"
+                    src="assets/img/menu_icon_close.svg" alt="Menu Close">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="index.html">Portal Indígena</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav-item--flex">
                         <span><a href="aldeia-guawiraty.html">Guawiraty</a></span>
                         <span><a href="aldeia-tangara.html">Tangará</a></span>
                         <span><a href="aldeia-yyrexaka.html">Yyrexakã</a></span>
@@ -47,9 +59,6 @@
             </div>
             
             <div class="conteudo">
-                <div class="titulo-descricao">
-                    <h1>Legenda</h1>
-                </div>
                 <div id="conteudo-aldeia" class="conteudo-aldeia">
                     <h2>Sobre a aldeia</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor. Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a consequat eros, id rutrum mi. Vestibulum cursus orci vitae bibendum tristique. Suspendisse efficitur ultricies nulla, ut congue mauris tempus nec. Duis ac fermentum mi. Vestibulum eget urna a diam vulputate tincidunt. Aenean tempus elementum massa. Etiam id elit vehicula, congue risus ac, pulvinar nulla.</p>
@@ -82,5 +91,7 @@
                 <img src="assets/img/facebook.svg" class="logo-redes-sociais">
             </div>
         </footer>
+
+        <script src="assets/js/menu.js"></script>
     </body>
 </html>
