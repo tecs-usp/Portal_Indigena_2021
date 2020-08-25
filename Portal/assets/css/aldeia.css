@@ -94,7 +94,7 @@ body {
     }
 
     .conteudo-aldeia, .historia-aldeia {
-        margin: 10px 40px;
+        margin: 10px 30px;
         margin-top: 10%;
         text-align: justify;
     }
@@ -104,6 +104,10 @@ body {
     }
     .menu-lateral{
         display: none;
+    }
+
+    .conteudo {
+        padding-top: 5%;
     }
 }
 
