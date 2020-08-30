@@ -88,27 +88,8 @@ body {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-
-    .conteudo-aldeia, .historia-aldeia {
-        margin: 10px 30px;
-        margin-top: 10%;
-        text-align: justify;
-    }
-
-    .conteudo-aldeia h2, .historia-aldeia h2 {
-        margin: 10px 10px;
-    }
-    .menu-lateral{
-        display: none;
-    }
-
-    .conteudo {
-        padding-top: 5%;
-    }
+.imagem-mobile, .titulo-mobile {
+    display: none;
 }
 
 .total {
@@ -172,4 +153,63 @@ body {
 
 .localizacao h2 {
     padding-bottom: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .conteudo-aldeia, .historia-aldeia {
+        margin: 10px 30px;
+        margin-top: 10%;
+        text-align: justify;
+    }
+
+    .conteudo-aldeia h2 {
+        margin: 10px 10px;
+        padding-top: 0;
+    }
+    .menu-lateral{
+        display: none;
+    }
+
+    .conteudo {
+        padding-top: 5%;
+    }
+    
+    .imagem-mobile, .titulo-mobile{
+        display: block;
+    }
+
+    .imagem-mobile img {
+        width: 100% !important; 
+        margin: 0;
+        margin-top: 10%;
+    }
+
+    .titulo-mobile {
+        text-align: center;
+        font-size: 35px;
+        background: #642F1E;
+        color: #ffffff;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .titulo-mobile h2{
+        margin: 0;
+    }
+
+    .total{
+        display: block;
+    }
+
+    h2{
+        margin: 0;
+    }
+
+    .image-portal{
+        width: 100%;
+    }
 }
