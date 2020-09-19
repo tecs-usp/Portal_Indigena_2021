@@ -72,15 +72,7 @@ body {
     background-color: rgba(88, 17, 17, 1);
     color: #FFFFFF;
     font-family: "Petrona Regular";
-}
-
-.logos {
-    display: flex;
-    justify-content: center;
-}
-
-.logo-redes-sociais {
-    width: 40px !important;
+    padding: 1.5em 1em;
 }
 
 .email {
@@ -104,7 +96,6 @@ body {
 }
 
 .menu-content {
-    position: sticky;
     top: 0;
 }
 
@@ -129,11 +120,27 @@ body {
     padding-top: 20px
 }
 
+.menu-lateral{
+    position: sticky;
+}
 .menu-lateral ul li{
     color: white;
     padding-left: 30px;
     padding-bottom: 20px;
     font-size: 20px;
+}
+
+.contato{
+    color: white;
+    border-top: 1px solid #FFFFFF;
+    margin: 0 30px;
+    padding-top: 20px;
+}
+
+.contato p{
+    padding-top: 30px;
+    font-weight: 100;
+    font-size: 24px;
 }
 
 .menu-lateral ul li a {

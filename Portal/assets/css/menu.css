@@ -57,6 +57,29 @@ body {
     text-align: center;
 }
 
+
+.menu-lateral {
+    background: #642F1E;
+    min-height: 100%;
+    width: 350px;
+}
+
+.menu-content {
+    top: 0;
+}
+
+.conteudo {
+    flex: 1;
+}
+
+.conteudo p {
+    line-height: 165%;
+}
+
+p.mail{
+    padding-top: 5px;
+}
+
 .navbar-nav .nav-item:nth-child(2) {
     flex: 2;
 }
@@ -117,19 +140,17 @@ body {
 }
 
 .banner-footer {
-    justify-content: space-between !important;
+    justify-content: flex-end !important;
     background-color: rgba(88, 17, 17, 1);
     color: #FFFFFF;
     font-family: "Petrona Regular";
-}
-
-.logos {
-    display: flex;
-    justify-content: center;
+    padding: 1.5em 1em !important;
 }
 
 .logo-redes-sociais {
-    width: 40px !important;
+    width: 30px !important;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 .email {
