@@ -1,0 +1,23 @@
+navbar-mobile:
+  - name: Portal Indígena
+    link: /
+
+navbar:
+  - name: Portal Indígena
+    link: /
+
+  - name: Aldeias
+    sub: true
+    items:
+      - name: Aldeia Guaviraty
+        link: /aldeia-guaviraty.html
+
+      - name: Aldeia Tangará
+        link: /aldeia-tangara.html
+
+      - name: Aldeia Yyrexakã
+        link: /aldeia-yyrexaka.html
+  
+  - name: Rede Indígena
+    link: /rede-indigena.html
+  
