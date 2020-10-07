@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar-mobile">
-        <img onclick="openMenu()" src="assets/img/menu_icon_open.svg" alt="Menu Open">
+        <img onclick="openMenu()" src="/assets/img/menu_icon_open.svg" alt="Menu Open">
         <ul class="navbar-nav">
             {% for item in site.data.navbar.navbar-mobile %}
                 <li class="nav-item">
@@ -10,12 +10,12 @@
         </ul>
     </nav>
     <nav class="navbar">
-        <a href="index.html" class="navbar-brand">
-            <img src="assets/img/logo.svg" alt="logo">
+        <a href="/index.html" class="navbar-brand">
+            <img src="/assets/img/logo.svg" alt="logo">
         </a>
         <img onclick="closeMenu()"
             class="menu-close__icon"
-            src="assets/img/menu_icon_close.svg" alt="Menu Close">
+            src="/assets/img/menu_icon_close.svg" alt="Menu Close">
         <ul class="navbar-nav">
             {% for item in site.data.navbar.navbar %}
                 {% if item.sub %}

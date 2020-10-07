@@ -7,24 +7,26 @@
     
     <title>{{page.title}}</title>
 
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/menu.css">
 
     {% if page.maincss %}
         <link rel="stylesheet" href="{{ page.maincss }}">
+    {% else if layout.maincss %}
+        <link rel="stylesheet" href="{{ layout.maincss }}">
     {% endif %}
 </head>
 
 <body>
     {% include navbar.html %}
-    {{content}}
+    {{ content }}
     
     <footer class="banner banner-footer">
         <span>
             Portal Indígena - Todos os direitos reservados.
         </span>
     </footer>
-    <script src="assets/js/menu.js"></script>    
+    <script src="/assets/js/menu.js"></script>    
 </body>
 
 </html>

@@ -9,14 +9,14 @@ navbar:
   - name: Aldeias
     sub: true
     items:
-      - name: Aldeia Guaviraty
-        link: /aldeia-guaviraty.html
+      - name: Guaviraty
+        link: /aldeias/guaviraty.html
 
-      - name: Aldeia Tangará
-        link: /aldeia-tangara.html
+      - name: Tangará
+        link: /aldeias/tangara.html
 
-      - name: Aldeia Yyrexakã
-        link: /aldeia-yyrexaka.html
+      - name: Yyrexakã
+        link: /aldeias/yyrexaka.html
   
   - name: Rede Indígena
     link: /rede-indigena.html

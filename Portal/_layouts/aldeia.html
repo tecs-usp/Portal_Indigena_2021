@@ -1,0 +1,38 @@
+---
+layout: default
+maincss: "../assets/css/aldeia.css"
+---
+
+<div class="total">
+    <div class="menu-lateral">
+        <div class="menu-content">
+            <img src="/assets/img/habitacao_yyrexaka.jpg" class="imagem-tangara-menu">
+            {% assign titulo = page.title | split: " " %}
+            <h1 class="titulo-menu">{{ titulo[0] }} <br>{{ titulo[1] }}</h1>
+            <ul>
+                <li><a href="#conteudo-aldeia">Sobre a aldeia</a></li>
+                <li><a href="#historia-aldeia">História</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+            </ul>
+        </div>
+        <div class="contato">
+            <p>
+                Contato:
+            </p>
+            <div class="logos">
+                <p><img src="/assets/img/instagram.svg" class="logo-redes-sociais"> Instagram</p>
+                <p><img src="/assets/img/facebook.svg" class="logo-redes-sociais"> Facebook</p>
+            </div>
+        </div>
+    </div>
+    <div class="imagem-mobile">
+        <img src="/assets/img/habitacao_yyrexaka.jpg" alt="Imagem Yyrexakã">
+    </div>
+    <div class="titulo-mobile">
+        <h2>{{ page.title }}</h2>
+    </div>
+
+    <div class="conteudo">
+        {{ content }}
+    </div>
+</div>
