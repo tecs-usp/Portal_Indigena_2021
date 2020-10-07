@@ -3,11 +3,11 @@ backend:
   repo: tecs-usp/Portal_Indigena_2020
   branch: cms # Branch to update (optional; defaults to master)
   # site_domain: gabriel-my-blog.netlify.app
-media_folder: 'assets/uploads'
+media_folder: 'Portal/assets/uploads'
 collections:
   - name: aldeias
     label: 'Aldeias'
-    folder: '_aldeias/'
+    folder: 'Portal/_aldeias/'
     create: true
     editor:
       preview: false
@@ -22,7 +22,7 @@ collections:
     files:
       - label: 'Navbar'
         name: 'navbar'
-        file: '_data/navbar.yml'
+        file: 'Portal/_data/navbar.yml'
         fields:
           - label: 'Navbar Mobile Items'
             name: 'navbar-mobile'
