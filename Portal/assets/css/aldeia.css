@@ -89,12 +89,6 @@ body {
     width: 100%;
 }
 
-.menu-lateral {
-    background: #642F1E;
-    min-height: 100%;
-    width: 350px;
-}
-
 .menu-content {
     top: 0;
 }
@@ -120,14 +114,31 @@ body {
     padding-top: 20px
 }
 
-.menu-lateral{
+.l-menu {
+    background: #642F1E;
+    height: 200%;
+    width: 350px;
+}
+
+.menu-lateral {
     position: sticky;
 }
+
 .menu-lateral ul li{
     color: white;
     padding-left: 30px;
     padding-bottom: 20px;
     font-size: 20px;
+}
+
+.menu-lateral ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu-lateral ul li a:hover {
+    text-decoration: underline;
 }
 
 .contato{
@@ -141,16 +152,6 @@ body {
     padding-top: 30px;
     font-weight: 100;
     font-size: 24px;
-}
-
-.menu-lateral ul li a {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.menu-lateral ul li a:hover {
-    text-decoration: underline;
 }
 
 .conteudo h2 {

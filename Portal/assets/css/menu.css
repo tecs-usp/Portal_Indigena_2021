@@ -158,10 +158,43 @@ p.mail{
     text-decoration: none;
 }
 
+/* dropdown */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding-top: 25px;
+    min-width: 100%;
+    z-index: 1;
+    color: #FFFFFF;
+  }
+
+  .dropdown-content li {
+    background-color: rgba(101, 19, 19, 0.8);
+    padding: 10px 30px;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+
 @media only screen and (max-width: 768px) {
     header {
         position: fixed;
         width: 100%;
+    }
+    .dropdown{
+        display: none;
+    }
+
+    .dropdown-content {
+        display: block;
     }
 
     .navbar {

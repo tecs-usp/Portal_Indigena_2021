@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Portal Indígena</title>
 
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -27,9 +27,7 @@
             <a href="index.html" class="navbar-brand">
                 <img src="assets/img/logo.svg" alt="logo">
             </a>
-            <img onclick="closeMenu()"
-                class="menu-close__icon"
-                src="assets/img/menu_icon_close.svg" alt="Menu Close">
+            <img onclick="closeMenu()" class="menu-close__icon" src="assets/img/menu_icon_close.svg" alt="Menu Close">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="index.html">Portal Indígena</a>
@@ -39,15 +37,18 @@
                     <span><a href="aldeia-tangara.html">Tangará</a></span>
                     <span><a href="aldeia-yyrexaka.html">Yyrexakã</a></span>
                 </li>
-                <li class="nav-item">
-                    <a href="rede-indigena.html">Rede Indígena</a>
+                <li class="nav-item dropdown">
+                    <a class="dropbtn">Sobre nós</a>
+                    <ul class="dropdown-content">
+                        <li><a href="sobre-tecs.html">Tecs</a></li>
+                        <li><a href="sobre-rede-indigena.html">Rede indígena</a></li>
+                    </ul>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <div aria-label="Imagem casa de reza"
-        class="header-img-top">
+    <div aria-label="Imagem casa de reza" class="header-img-top">
     </div>
 
     <div class="banner">
@@ -83,20 +84,20 @@
             Portal Indígena - Todos os direitos reservados.
         </span>
     </footer>
-    
+
     <script src="assets/js/menu.js"></script>
     <script>
         function onScroll(e) {
             var navbar_m = document.getElementsByClassName("navbar-mobile")[0];
-            
-            var doc = document.documentElement;
-            var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
 
-            if(top >= 50 && !flag_scroll) {
+            var doc = document.documentElement;
+            var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+
+            if (top >= 50 && !flag_scroll) {
                 navbar_m.style.backgroundColor = "rgba(101, 19, 19, 1)";
                 flag_scroll = true;
             }
-            else if(top < 50 && flag_scroll){
+            else if (top < 50 && flag_scroll) {
                 navbar_m.style.backgroundColor = "rgba(101, 19, 19, 0.8)";
                 flag_scroll = false;
             }
