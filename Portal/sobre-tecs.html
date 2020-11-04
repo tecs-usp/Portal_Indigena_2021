@@ -1,102 +1,44 @@
-<!DOCTYPE html>
-<html lang="pt">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Portal Indígena</title>
-
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/rede.css">
-    <link rel="stylesheet" href="assets/css/menu.css">
-
-</head>
-
-<body>
-    <header>
-        <nav class="navbar-mobile">
-            <img onclick="openMenu()" src="assets/img/menu_icon_open.svg" alt="Menu Open">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <span><a href="index.html">Portal Indígena</a></span>
-                </li>
-            </ul>
-        </nav>
-        <nav class="navbar">
-            <a href="index.html" class="navbar-brand">
-                <img src="assets/img/logo.svg" alt="logo">
-            </a>
-            <img onclick="closeMenu()"
-                class="menu-close__icon"
-                src="assets/img/menu_icon_close.svg" alt="Menu Close">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="index.html">Portal Indígena</a>
-                </li>
-                <li class="nav-item nav-item--flex">
-                    <span><a href="aldeia-guaviraty.html">Guaviraty</a></span>
-                    <span><a href="aldeia-tangara.html">Tangará</a></span>
-                    <span><a href="aldeia-yyrexaka.html">Yyrexakã</a></span>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="dropbtn">Sobre nós</a>
-                    <ul class="dropdown-content">
-                        <li><a href="sobre-tecs.html">Tecs</a></li>
-                        <li><a href="sobre-rede-indigena.html">Rede indígena</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="total">
+---
+layout: default
+title: "Sobre Tecs"
+maincss: "/assets/css/rede.css"
+---
+<div class="total">
+    <div class="l-menu">
         <div class="menu-lateral">
             <div class="menu-content">
                 <div class="img-wrapper">
-                    <img src="assets/img/icons/logo_tecs.png" class="imagem-tangara-menu" alt="Tecs: Grupo de Computação Social da USP">
+                    <img src="assets/img/logo_ri.png" class="imagem-tangara-menu">
                 </div>
-                <br>
-                <br>
+                <h1 class="titulo-menu">Tecs</h1>
                 <ul>
                     <li>Sobre o Tecs</li>
                 </ul>
-                <div class="contato">
-                    <p>
-                        Contato:
-                    </p>
-                    <p class="mail">
-                        tecs@ime.usp.br
-                    </p>
-                    <div class="logos">
-                        <p><a href="https://www.instagram.com/tecs.usp/?hl=pt-br" target="_blank"><img src="assets/img/instagram.svg" class="logo-redes-sociais"></a> Instagram</p>
-                        <p><a href="https://pt-br.facebook.com/tecs.usp/" target="_blank"><img src="assets/img/facebook.svg" class="logo-redes-sociais"></a> Facebook</p>
-                        <p><a href="https://t.me/tecsusp" target="_blank"><img src="assets/img/icons/telegram-brands.png" class="logo-redes-sociais"></a> Telegram</p>
-                        <p><a href="https://twitter.com/tecsusp/" target="_blank"><img src="assets/img/icons/twitter-brands.png" class="logo-redes-sociais"></a> Twitter</p>            
-                    </div>
+            </div>
+            <div class="contato">
+                <p>
+                    Contato:
+                </p>
+                <p class="mail">
+                    tecs@ime.usp.br
+                </p>
+                <div class="logos">
+                    <p><a href="https://www.instagram.com/tecs.usp/?hl=pt-br" target="_blank"><img src="assets/img/instagram.svg" class="logo-redes-sociais"></a> Instagram</p>
+                    <p><a href="https://pt-br.facebook.com/tecs.usp/" target="_blank"><img src="assets/img/facebook.svg" class="logo-redes-sociais"></a> Facebook</p>
+                    <p><a href="https://t.me/tecsusp" target="_blank"><img src="assets/img/icons/telegram-brands.png" class="logo-redes-sociais"></a> Telegram</p>
+                    <p><a href="https://twitter.com/tecsusp/" target="_blank"><img src="assets/img/icons/twitter-brands.png" class="logo-redes-sociais"></a> Twitter</p>            
                 </div>
             </div>
-
-        </div>
-        <div class="conteudo">
-            <h2 class="conteudo-titulo" id="conteudo-rede">Sobre o Tecs</h2>
-            <p>O Tecs | Grupo de comput{ação social} da USP é um grupo de extensão universitária iniciado por alunos do Bacharelado em Ciência da Computação do IME-USP, focado no impacto social da computação e da tecnologia. Ele é parte do TechShift, uma aliança global de organizações estudantis com esse mesmo propósito. </p>
-            <p>O grupo é constituído por três frentes de desenvolvimento — educação, ética e serviços. Elas visam, respectivamente, promover a educação tecnológica igualitária da população por meio de cursos, oficinas e ações promovidas pelo grupo; unir esforços para formar uma sociedade e profissionais éticos e conscientes sobre o uso da tecnologia; e estimular alunos a usarem a tecnologia para solucionar problemas da comunidade local. </p>
-            <h3 class="conteudo-titulo-h3"> O projeto do Portal Indígena</h3>
-            <p>O Portal Indígena nasceu da parceria entre o Tecs e a Rede Indígena da USP, grupo vinculado ao Instituto de Psicologia  que oferece apoio social às aldeias em volta da cidade de São Paulo e a indígenas urbanos. Este grupo faz parte do programa <a href="https://www.prg.usp.br/aprender-na-comunidade/" target="_blank">Aprender na Comunidade</a>, que almeja prestar serviços relacionados à educação, para além dos muros da universidade.</p>
-            <p>Assim, o projeto do Portal Indígena tem como objetivo desenvolver uma plataforma para centralizar sites de aldeias indígenas de diversas regiões. Com isso, ajudamos a melhorar a situação da visibilidade indígena através da inserção das aldeias no ambiente virtual. O Portal Indígena é, portanto, uma página da web pensada para ter um pouco da cara de todas as aldeias com as quais cooperamos, permitindo divulgação de conteúdo cultural sobre cada uma delas e, principalmente, levantando discussões sobre questões sociais e territoriais.</p>
-            <img src="assets/img/icons/tecs_3a_gen.png" alt="Imagem de 12 integrantes do Tecs da Terceira Geração do grupo.">
-            <span>Legenda: Terceira geração do Tecs</span>
         </div>
     </div>
-
-    <footer class="banner banner-footer">
-        <span>
-            Portal Indígena - Todos os direitos reservados.
-        </span>
-    </footer>
-
-    <script src="assets/js/menu.js"></script>
-</body>
-
-</html>
+    <div class="conteudo">
+        <h2 class="conteudo-titulo" id="conteudo-rede">Sobre o Tecs</h2>
+        <p>O Tecs | Grupo de comput{ação social} da USP é um grupo de extensão universitária iniciado por alunos do Bacharelado em Ciência da Computação do IME-USP, focado no impacto social da computação e da tecnologia. Ele é parte do TechShift, uma aliança global de organizações estudantis com esse mesmo propósito. </p>
+        <p>O grupo é constituído por três frentes de desenvolvimento — educação, ética e serviços. Elas visam, respectivamente, promover a educação tecnológica igualitária da população por meio de cursos, oficinas e ações promovidas pelo grupo; unir esforços para formar uma sociedade e profissionais éticos e conscientes sobre o uso da tecnologia; e estimular alunos a usarem a tecnologia para solucionar problemas da comunidade local. </p>
+        <h3 class="conteudo-titulo-h3"> O projeto do Portal Indígena</h3>
+        <p>O Portal Indígena nasceu da parceria entre o Tecs e a Rede Indígena da USP, grupo vinculado ao Instituto de Psicologia  que oferece apoio social às aldeias em volta da cidade de São Paulo e a indígenas urbanos. Este grupo faz parte do programa <a href="https://www.prg.usp.br/aprender-na-comunidade/" target="_blank">Aprender na Comunidade</a>, que almeja prestar serviços relacionados à educação, para além dos muros da universidade.</p>
+        <p>Assim, o projeto do Portal Indígena tem como objetivo desenvolver uma plataforma para centralizar sites de aldeias indígenas de diversas regiões. Com isso, ajudamos a melhorar a situação da visibilidade indígena através da inserção das aldeias no ambiente virtual. O Portal Indígena é, portanto, uma página da web pensada para ter um pouco da cara de todas as aldeias com as quais cooperamos, permitindo divulgação de conteúdo cultural sobre cada uma delas e, principalmente, levantando discussões sobre questões sociais e territoriais.</p>
+        <img src="/assets/img/icons/tecs_3a_gen.png" alt="Imagem de 12 integrantes do Tecs da Terceira Geração do grupo.">
+        <span>Legenda: Terceira geração do Tecs</span>
+    </div>
+</div>

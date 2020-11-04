@@ -198,28 +198,12 @@ p.mail{
         position: fixed;
         width: 100%;
     }
-    .dropdown {
-        display: block;
-    }
-    
-    .dropdown .dropbtn {
+    .dropdown{
         display: none;
     }
 
     .dropdown-content {
         display: block;
-        position: relative;
-        padding: 0;
-       
-    }
-
-    .dropdown-content li {
-        border-bottom: 0px;
-        padding: 0;
-    }
-
-    .dropdown-content li:not(:first-child) {
-        margin-top: 5%;
     }
 
     .navbar {

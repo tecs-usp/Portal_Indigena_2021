@@ -18,11 +18,20 @@
             src="/assets/img/menu_icon_close.svg" alt="Menu Close">
         <ul class="navbar-nav">
             {% for item in site.data.navbar.navbar %}
-                {% if item.sub %}
+                {% if item.inline %}
                     <li class="nav-item nav-item--flex">
                         {% for subitem in item.items %}
                             <span><a href="{{ subitem.link }}">{{ subitem.name }}</a></span>
                         {% endfor %}
+                    </li>
+                {% else if item.dropdown %}
+                    <li class="nav-item dropdown">
+                        <a class="dropbtn">{{ item.name }}</a>
+                        <ul class="dropdown-content">
+                            {% for subitem in item.items %}
+                                <li><a href="{{ subitem.link }}">{{ subitem.name }}</a></li>
+                            {% endfor %}
+                        </ul>
                     </li>
                 {% else %}
                     <li class="nav-item">

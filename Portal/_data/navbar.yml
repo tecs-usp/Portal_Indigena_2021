@@ -7,7 +7,7 @@ navbar:
     link: /
 
   - name: Aldeias
-    sub: true
+    inline: true
     items:
       - name: Guaviraty
         link: /aldeias/guaviraty.html
@@ -18,6 +18,11 @@ navbar:
       - name: Yyrexakã
         link: /aldeias/yyrexaka.html
   
-  - name: Rede Indígena
-    link: /rede-indigena.html
-  
+  - name: Sobre Nós
+    dropdown: true
+    items:
+      - name: Rede Indígena  
+        link: /sobre-rede-indigena.html
+
+      - name: O Tecs
+        link: /sobre-tecs.html
