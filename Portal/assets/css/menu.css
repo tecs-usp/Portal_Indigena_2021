@@ -62,16 +62,21 @@ body {
     background: #642F1E;
     min-height: 100%;
     width: 350px;
+    /* Mano, o position sticky aqui não funciona */
+    top: 0;
+    position: sticky;
 }
 
 .menu-content {
+    /* mas funciona por aqui */
     top: 0;
+    position: sticky;
 }
 
 .conteudo {
     flex: 1;
+    
 }
-
 .conteudo p {
     line-height: 165%;
 }
@@ -112,7 +117,8 @@ p.mail{
     top: 0px;
     background-color: rgba(101, 19, 19, 1);
     padding: 2.5%;
-    padding-right: 2.5%;
+    padding-right: 2.5%;bottom: 0;
+    position: sticky;
     padding-left: 2.5%;
     width: 100%;
     align-items: center;
@@ -145,6 +151,9 @@ p.mail{
     color: #FFFFFF;
     font-family: "Petrona Regular";
     padding: 1.5em 1em !important;
+    /* bottom: 0;
+    position: sticky; */
+
 }
 
 .logo-redes-sociais {
