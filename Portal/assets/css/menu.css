@@ -198,12 +198,28 @@ p.mail{
         position: fixed;
         width: 100%;
     }
-    .dropdown{
+    .dropdown {
+        display: block;
+    }
+    
+    .dropdown .dropbtn {
         display: none;
     }
 
     .dropdown-content {
         display: block;
+        position: relative;
+        padding: 0;
+       
+    }
+
+    .dropdown-content li {
+        border-bottom: 0px;
+        padding: 0;
+    }
+
+    .dropdown-content li:not(:first-child) {
+        margin-top: 5%;
     }
 
     .navbar {
@@ -232,8 +248,9 @@ p.mail{
         border-top: 5px solid #FFFFFF;
     }
 
-    .navbar .navbar-nav .nav-item:last-child {
+    .navbar .navbar-nav:last-child {
         border-bottom: 5px solid #FFFFFF;
+        
     }
 
     .navbar .navbar-nav .nav-item:not(:last-child) {
