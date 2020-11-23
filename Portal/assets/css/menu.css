@@ -59,18 +59,18 @@ body {
 
 
 .menu-lateral {
-    background: #642F1E;
-    min-height: 100%;
-    width: 350px;
-    /* Mano, o position sticky aqui não funciona */
-    top: 0;
-    position: sticky;
+  background: #642F1E;
+  min-height: 100%;
+  width: 350px;
+  /* Mano, o position sticky aqui não funciona */
+  top: 0;
+  position: sticky;
 }
 
 .menu-content {
-    /* mas funciona por aqui */
-    top: 0;
-    position: sticky;
+  /* mas funciona por aqui */
+  top: 0;
+  position: sticky;
 }
 
 .conteudo {
@@ -117,9 +117,8 @@ p.mail{
     top: 0px;
     background-color: rgba(101, 19, 19, 1);
     padding: 2.5%;
-    padding-right: 2.5%;bottom: 0;
     position: sticky;
-    padding-left: 2.5%;
+    bottom: 0;
     width: 100%;
     align-items: center;
     float: left;
@@ -198,12 +197,27 @@ p.mail{
         position: fixed;
         width: 100%;
     }
-    .dropdown{
+    .dropdown {
+      display: block;
+    }
+  
+    .dropdown .dropbtn {
         display: none;
     }
 
     .dropdown-content {
         display: block;
+        position: relative;
+        padding: 0;
+    }
+
+    .dropdown-content li {
+        border-bottom: 0px;
+        padding: 0;
+    }
+
+    .dropdown-content li:not(:first-child) {
+        margin-top: 5%;
     }
 
     .navbar {
