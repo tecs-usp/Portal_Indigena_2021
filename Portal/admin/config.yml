@@ -3,11 +3,11 @@ backend:
   repo: tecs-usp/Portal_Indigena_2020
   branch: cms # Branch to update (optional; defaults to master)
   # site_domain: gabriel-my-blog.netlify.app
-media_folder: 'Portal/assets/uploads'
+media_folder: "Portal/assets/uploads"
 collections:
   - name: aldeias
-    label: 'Aldeias'
-    folder: 'Portal/_aldeias/'
+    label: "Aldeias"
+    folder: "Portal/_aldeias/"
     create: true
     editor:
       preview: false
@@ -15,25 +15,25 @@ collections:
       - { label: Layout, name: layout, widget: string, default: aldeia }
       - { label: Titulo, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
-  - name: 'config'
-    label: 'Config'
+  - name: "config"
+    label: "Config"
     editor:
       preview: false
     files:
-      - label: 'Navbar'
-        name: 'navbar'
-        file: 'Portal/_data/navbar.yml'
+      - label: "Navbar"
+        name: "navbar"
+        file: "Portal/_data/navbar.yml"
         fields:
-          - label: 'Navbar Mobile Items'
-            name: 'navbar-mobile'
-            widget: 'list'
+          - label: "Navbar Mobile Items"
+            name: "navbar-mobile"
+            widget: "list"
             fields:
-              - { label: 'Name', name: 'name', widget: string }
-              - { label: 'Link', name: 'link', widget: string }
-          - label: 'Navbar Items'
-            name: 'navbar'
-            widget: 'list'
+              - { label: "Name", name: "name", widget: string }
+              - { label: "Link", name: "link", widget: string }
+          - label: "Navbar Items"
+            name: "navbar"
+            widget: "list"
             fields:
-              - { label: 'Name', name: 'name', widget: string }
-              - { label: 'Link', name: 'link', widget: string }
-              - { label: 'SubItems', name: 'sub', widget: boolean }
+              - { label: "Name", name: "name", widget: string }
+              - { label: "Link", name: "link", widget: string }
+              - { label: "SubItems", name: "sub", widget: boolean }

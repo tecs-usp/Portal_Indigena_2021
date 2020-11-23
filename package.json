@@ -1,0 +1,22 @@
+{
+  "name": "portal-indigena",
+  "version": "0.1.0",
+  "description": "Projeto no qual se pretende desenvolver um portal centralizador de sites de algumas aldeias indígenas no estado de São Paulo. Posteriormente, pretende-se dar continuidade a esse portal através da confecção dos próprios sites individuais dos diferentes grupos e construção de ferramentas específicas para atender as demandas particulares das aldeias - tradutores Português-Guarani, site de vendas de mercadoria, calendário de atividades e agenda organizadora de eventos para turismo.",
+  "main": "Portal/index.html",
+  "devDependencies": {
+    "prettier": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecs-usp/Portal_Indigena_2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecs-usp/Portal_Indigena_2020/issues"
+  },
+  "homepage": "https://github.com/tecs-usp/Portal_Indigena_2020#readme"
+}

@@ -1,115 +1,115 @@
-@font-face{
-    font-family: "Petrona Regular";
-    src: url("../fonts/Petrona-Regular.ttf")
+@font-face {
+  font-family: "Petrona Regular";
+  src: url("../fonts/Petrona-Regular.ttf");
 }
 
 .total {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 
 .menu-content {
-    top: 0;
+  top: 0;
 }
 
 .conteudo {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    text-align: justify;
-    padding: 3%;
-    margin: 10px 60px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: justify;
+  padding: 3%;
+  margin: 10px 60px;
 }
 
 .conteudo-titulo {
-    text-align: center;
-    padding-bottom: 1%;
-    font-weight: bold;
-    font-size: 1.875em;
+  text-align: center;
+  padding-bottom: 1%;
+  font-weight: bold;
+  font-size: 1.875em;
 }
 
 .conteudo p {
-    line-height: 165%;
-    margin-top: 10px;
-    font-weight: 100;
+  line-height: 165%;
+  margin-top: 10px;
+  font-weight: 100;
 }
 
 .conteudo img {
-    margin-top: 3%;
-    width: 100%;
-    border-radius: 10px;
+  margin-top: 3%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .conteudo span {
-    font-size: 0.9em;
-    text-align: center;
-    margin-top: 1%;
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 1%;
 }
 
 .img-wrapper {
-    padding-top: 20px;
-    text-align: center;
+  padding-top: 20px;
+  text-align: center;
 }
 
-.imagem-tangara-menu{
-    width: 70%;
+.imagem-tangara-menu {
+  width: 70%;
 }
 
 .titulo-menu {
-    font-size: 45px;
-    color: white;
-    padding-left: 30px;
-    padding-bottom: 60px;
-    padding-top: 20px
+  font-size: 45px;
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 60px;
+  padding-top: 20px;
 }
 
-.menu-lateral ul li{
-    color: white;
-    padding-left: 30px;
-    padding-bottom: 20px;
-    font-size: 20px;
+.menu-lateral ul li {
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .menu-lateral ul li a {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .menu-lateral ul li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.contato{
-    color: white;
-    border-top: 1px solid #FFFFFF;
-    margin: 0 30px;
-    padding-top: 20px;
+.contato {
+  color: white;
+  border-top: 1px solid #ffffff;
+  margin: 0 30px;
+  padding-top: 20px;
 }
 
-.contato p{
-    padding-top: 20px;
-    font-weight: 100;
-    font-size: 24px;
+.contato p {
+  padding-top: 20px;
+  font-weight: 100;
+  font-size: 24px;
 }
 
 .conteudo-titulo-h3 {
-    text-align: center;
-    margin-top: 20px;
-    padding: 2%;
-    font-weight: bold;
-    font-size: 1.5em;
+  text-align: center;
+  margin-top: 20px;
+  padding: 2%;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 @media only screen and (max-width: 768px) {
-    .menu-lateral {
-        display: none;
-    }
+  .menu-lateral {
+    display: none;
+  }
 
-    .conteudo {
-        margin: 0px;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        padding: 30px;
-    }
+  .conteudo {
+    margin: 0px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px;
+  }
 }

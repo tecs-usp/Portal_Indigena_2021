@@ -17,11 +17,11 @@ navbar:
 
       - name: Yyrexakã
         link: /aldeias/yyrexaka.html
-  
+
   - name: Sobre Nós
     dropdown: true
     items:
-      - name: Rede Indígena  
+      - name: Rede Indígena
         link: /sobre-rede-indigena.html
 
       - name: O Tecs

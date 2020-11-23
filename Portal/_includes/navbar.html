@@ -1,44 +1,49 @@
 <header>
-    <nav class="navbar-mobile">
-        <img onclick="openMenu()" src="/assets/img/menu_icon_open.svg" alt="Menu Open">
-        <ul class="navbar-nav">
-            {% for item in site.data.navbar.navbar-mobile %}
-                <li class="nav-item">
-                    <span><a href="{{ item.link }}">{{ item.name }}</a></span>
-                </li>
-            {% endfor %}
+  <nav class="navbar-mobile">
+    <img
+      onclick="openMenu()"
+      src="/assets/img/menu_icon_open.svg"
+      alt="Menu Open"
+    />
+    <ul class="navbar-nav">
+      {% for item in site.data.navbar.navbar-mobile %}
+      <li class="nav-item">
+        <span><a href="{{ item.link }}">{{ item.name }}</a></span>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <nav class="navbar">
+    <a href="/index.html" class="navbar-brand">
+      <img src="/assets/img/logo.svg" alt="logo" />
+    </a>
+    <img
+      onclick="closeMenu()"
+      class="menu-close__icon"
+      src="/assets/img/menu_icon_close.svg"
+      alt="Menu Close"
+    />
+    <ul class="navbar-nav">
+      {% for item in site.data.navbar.navbar %} {% if item.inline %}
+      <li class="nav-item nav-item--flex">
+        {% for subitem in item.items %}
+        <span><a href="{{ subitem.link }}">{{ subitem.name }}</a></span>
+        {% endfor %}
+      </li>
+      {% else if item.dropdown %}
+      <li class="nav-item dropdown">
+        <a class="dropbtn">{{ item.name }}</a>
+        <ul class="dropdown-content">
+          {% for subitem in item.items %}
+          <li><a href="{{ subitem.link }}">{{ subitem.name }}</a></li>
+          {% endfor %}
         </ul>
-    </nav>
-    <nav class="navbar">
-        <a href="/index.html" class="navbar-brand">
-            <img src="/assets/img/logo.svg" alt="logo">
-        </a>
-        <img onclick="closeMenu()"
-            class="menu-close__icon"
-            src="/assets/img/menu_icon_close.svg" alt="Menu Close">
-        <ul class="navbar-nav">
-            {% for item in site.data.navbar.navbar %}
-                {% if item.inline %}
-                    <li class="nav-item nav-item--flex">
-                        {% for subitem in item.items %}
-                            <span><a href="{{ subitem.link }}">{{ subitem.name }}</a></span>
-                        {% endfor %}
-                    </li>
-                {% else if item.dropdown %}
-                    <li class="nav-item dropdown">
-                        <a class="dropbtn">{{ item.name }}</a>
-                        <ul class="dropdown-content">
-                            {% for subitem in item.items %}
-                                <li><a href="{{ subitem.link }}">{{ subitem.name }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                {% else %}
-                    <li class="nav-item">
-                        <a href="{{ item.link }}">{{ item.name }}</a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-    </nav>
+      </li>
+      {% else %}
+      <li class="nav-item">
+        <a href="{{ item.link }}">{{ item.name }}</a>
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
+  </nav>
 </header>
