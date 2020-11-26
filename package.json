@@ -7,7 +7,7 @@
     "prettier": "^2.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"(Portal|resources)/**/*.(json|html|js|jsx|ts|tsx|css|scss)\""
   },
   "repository": {
     "type": "git",
