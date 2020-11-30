@@ -21,3 +21,7 @@ Nós utilizamos o GitDuck (https://gitduck.com) para desenvolvimento em grupo. C
 ### - Sobre o Prettier
 
 Prettier se trata de um formatador de código _opinionado_. Com ele é possível padronizarmos mais facilmente o estilo do código, indentações etc., mesmo com diversas pessoas mexendo em um mesmo projeto. Para utilizá-lo, basta instalar a extensão de mesmo nome ao VSCode(ium) ( https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode ) e rodar o comando `npm install` na pasta do projeto - que instalará a dependência javascript do Prettier. Em caso de dúvidas com o npm consultar: https://www.npmjs.com/get-npm
+
+### - Sobre o sass/SCSS
+
+O sass/SCSS (https://sass-lang.com/guide) é um CSS com _superpoderes_. Adiciona-se assim várias ferramentas ao projeto, que facilitam a organização e permitem novos usos do CSS.
