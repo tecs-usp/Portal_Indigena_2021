@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Portal Indígena</title>
+
+    <!-- Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap JS-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="Portal_estilo.css" />
+  </head>
+
+  <body id="main">
+    <!-- Navbar -->
+    <div class="navbar nav">
+      <div class="navbar-brand">
+        <div
+          class="rectangle d-flex justify-content-start align-items-center"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="arrow right offset-2"></i>
+        </div>
+      </div>
+      <div class="col justify-content-start titulo">Portal Indígena</div>
+    </div>
+
+    <!-- Side Menu -->
+    <div class="collapse sidenav fade" id="navbarToggleExternalContent">
+      <span class="d-flex justify-content-between align-items-center" href="#">
+        <div
+          class="fundo_retangulo d-flex justify-content-center align-items-center"
+        >
+          <img
+            src="Logo_Vetor.svg"
+            alt="logotipo_em_vetor"
+            height="40"
+            width="40"
+          />
+        </div>
+        <div
+          class="rectangle d-flex justify-content-center align-items-center"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="arrow left offset-2"></i>
+        </div>
+      </span>
+      <span class="d-flex justify-content-center">
+        <div class="linha"></div>
+      </span>
+      <a class="d-flex justify-content-center" href="Portal.html">Início</a>
+      <span class="d-flex justify-content-center">
+        <div class="linha"></div>
+      </span>
+      <a class="d-flex justify-content-center" href="Aldeia_A.html">Aldeia A</a>
+      <a class="d-flex justify-content-center" href="#">Aldeia B</a>
+      <a class="d-flex justify-content-center" href="#">Aldeia C</a>
+      <span class="d-flex justify-content-center">
+        <div class="linha"></div>
+      </span>
+      <a class="d-flex justify-content-center" href="#">Rede indígena</a>
+      <span class="d-flex justify-content-center">
+        <div class="linha"></div>
+      </span>
+    </div>
+
+    <!-- Recepção Portal -->
+
+    <!--
+            Possibilidade de poligono
+            <svg height="65" width="200">
+                <polygon points="0,10 90,25 190,10 190,50 90,65 0,50" style="fill:lime;stroke:purple;stroke-width:1" />
+            </svg>
+            -->
+
+    <div class="container introducao">
+      <div class="row">
+        <div class="col-7">
+          <div class="container texto_bem_vindo">
+            <p id="bem_vindo" class="row justify-content-center">
+              Bem vindo ao
+            </p>
+            <p id="portal_indigena" class="row justify-content-center">
+              Portal Indígena
+            </p>
+          </div>
+        </div>
+        <div class="col-5 centralizar_logo d-flex justify-content-center">
+          <img
+            src="Logo_Vetor.svg"
+            alt="logotipo_em_vetor"
+            height="40"
+            width="40"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Cartões Aldeias -->
+    <div class="container d-flex justify-content-center">
+      <div
+        class="card cartao"
+        type="button"
+        onclick="location.href='Aldeia_A.html'"
+      >
+        <img
+          class="card-img-top"
+          src="Imagem_casa_inicio.jpg"
+          alt="Card image cap"
+        />
+        <div class="card-body d-flex justify-content-center align-items-center">
+          <h5 class="card-title">Aldeia A</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+      <div class="card cartao" type="button" onclick="location.href='#'">
+        <img
+          class="card-img-top"
+          src="Imagem_casa_inicio.jpg"
+          alt="Card image cap"
+        />
+        <div class="card-body d-flex justify-content-center align-items-center">
+          <h5 class="card-title">Aldeia B</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+      <div class="card cartao" type="button" onclick="location.href='#'">
+        <img
+          class="card-img-top"
+          src="Imagem_casa_inicio.jpg"
+          alt="Card image cap"
+        />
+        <div class="card-body d-flex justify-content-center align-items-center">
+          <h5 class="card-title">Aldeia C</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 d-flex justify-content-center">
+            <span class="row">Contato:</span>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <img
+              style="margin-top: 8px"
+              src="Instagram.svg"
+              alt="instagram_em_vetor"
+              height="35"
+              width="35"
+              type="button"
+              onclick="location.href='#'"
+            />
+            <img
+              style="margin-top: 8px; margin-left: 9px"
+              src="Face.svg"
+              alt="facebook_em_vetor"
+              height="35"
+              width="35"
+              type="button"
+              onclick="location.href='#'"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

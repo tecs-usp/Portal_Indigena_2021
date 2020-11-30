@@ -1,224 +1,230 @@
-@font-face{
-    font-family: "Petrona Regular";
-    src: url("../fonts/Petrona-Regular.ttf")
+@font-face {
+  font-family: "Petrona Regular";
+  src: url("../fonts/Petrona-Regular.ttf");
 }
 
 :root {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    font-family: "Petrona Regular";
+  font-family: "Petrona Regular";
 }
 
 .header-img-top {
-    width: 100%;
-    height: 60vh;
-    background-image: url("../img/habitacao_yyrexaka.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  background-image: url("../img/habitacao_yyrexaka.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-.conteudo-aldeia, .historia-aldeia{
-    margin: 10px 100px;
-    line-height: 25px;
+.conteudo-aldeia,
+.historia-aldeia {
+  margin: 10px 100px;
+  line-height: 25px;
 }
 
-.conteudo-aldeia p, .historia-aldeia p {
-    margin-top: 15px;
-    text-align: justify;
+.conteudo-aldeia p,
+.historia-aldeia p {
+  margin-top: 15px;
+  text-align: justify;
 }
-.conteudo-aldeia h2, .historia-aldeia h2 {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 50px;
+.conteudo-aldeia h2,
+.historia-aldeia h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
 }
 
 .localizacao p {
-    margin: 10px 0;
-    text-align: center;
+  margin: 10px 0;
+  text-align: center;
 }
 
-.localizacao p, h2 {
-    margin: 10px 100px;
-    line-height: 25px;
+.localizacao p,
+h2 {
+  margin: 10px 100px;
+  line-height: 25px;
 }
 
 .localizacao h2 {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
 }
 
 .banner img {
-    width: 100px;
+  width: 100px;
 }
 
 .banner {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .banner-footer {
-    justify-content: space-between;
-    background-color: rgba(88, 17, 17, 1);
-    color: #FFFFFF;
-    font-family: "Petrona Regular";
-    padding: 1.5em 1em;
+  justify-content: space-between;
+  background-color: rgba(88, 17, 17, 1);
+  color: #ffffff;
+  font-family: "Petrona Regular";
+  padding: 1.5em 1em;
 }
 
 .email {
-    color:#ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.imagem-mobile, .titulo-mobile {
-    display: none;
+.imagem-mobile,
+.titulo-mobile {
+  display: none;
 }
 
 .total {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .menu-content {
-    top: 0;
+  top: 0;
 }
 
 .conteudo {
-    flex: 1;
+  flex: 1;
 }
 
 .conteudo p {
-    line-height: 165%;
+  line-height: 165%;
 }
 
-.imagem-tangara-menu{
-    width: 100%;
-    height: 200px;
+.imagem-tangara-menu {
+  width: 100%;
+  height: 200px;
 }
 
 .titulo-menu {
-    font-size: 45px;
-    color: white;
-    padding-left: 30px;
-    padding-bottom: 40px;
-    padding-top: 20px
+  font-size: 45px;
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 .l-menu {
-    background: #642F1E;
-    height: 200%;
-    width: 350px;
+  background: #642f1e;
+  height: 200%;
+  width: 350px;
 }
 
 .menu-lateral {
-    position: sticky;
+  position: sticky;
 }
 
-.menu-lateral ul li{
-    color: white;
-    padding-left: 30px;
-    padding-bottom: 20px;
-    font-size: 20px;
+.menu-lateral ul li {
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .menu-lateral ul li a {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .menu-lateral ul li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.contato{
-    color: white;
-    border-top: 1px solid #FFFFFF;
-    margin: 0 30px;
-    padding-top: 20px;
+.contato {
+  color: white;
+  border-top: 1px solid #ffffff;
+  margin: 0 30px;
+  padding-top: 20px;
 }
 
-.contato p{
-    padding-top: 20px;
-    font-weight: 100;
-    font-size: 24px;
+.contato p {
+  padding-top: 20px;
+  font-weight: 100;
+  font-size: 24px;
 }
 
 .conteudo h2 {
-    font-weight: bold;
-    padding-bottom: 1%;
+  font-weight: bold;
+  padding-bottom: 1%;
 }
 
 .localizacao h2 {
-    padding-bottom: 0%;
+  padding-bottom: 0%;
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
+  body {
+    font-size: 14px;
+  }
 
-    .conteudo-aldeia, .historia-aldeia {
-        margin: 10px 30px;
-        margin-top: 10%;
-        text-align: justify;
-    }
+  .conteudo-aldeia,
+  .historia-aldeia {
+    margin: 10px 30px;
+    margin-top: 10%;
+    text-align: justify;
+  }
 
-    .conteudo-aldeia h2 {
-        margin: 10px 10px;
-        padding-top: 0;
-    }
-    .menu-lateral{
-        display: none;
-    }
+  .conteudo-aldeia h2 {
+    margin: 10px 10px;
+    padding-top: 0;
+  }
+  .menu-lateral {
+    display: none;
+  }
 
-    .conteudo {
-        padding-top: 5%;
-    }
-    
-    .imagem-mobile, .titulo-mobile{
-        display: block;
-    }
+  .conteudo {
+    padding-top: 5%;
+  }
 
-    .imagem-mobile img {
-        width: 100% !important; 
-        margin: 0;
-        margin-top: 10%;
-    }
+  .imagem-mobile,
+  .titulo-mobile {
+    display: block;
+  }
 
-    .titulo-mobile {
-        text-align: center;
-        font-size: 35px;
-        background: #642F1E;
-        color: #ffffff;
-        margin: 0;
-        padding: 20px;
-    }
+  .imagem-mobile img {
+    width: 100% !important;
+    margin: 0;
+    margin-top: 10%;
+  }
 
-    .titulo-mobile h2{
-        margin: 0;
-    }
+  .titulo-mobile {
+    text-align: center;
+    font-size: 35px;
+    background: #642f1e;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+  }
 
-    .total{
-        display: block;
-    }
+  .titulo-mobile h2 {
+    margin: 0;
+  }
 
-    h2{
-        margin: 0;
-    }
+  .total {
+    display: block;
+  }
 
-    .image-portal{
-        width: 100%;
-    }
+  h2 {
+    margin: 0;
+  }
+
+  .image-portal {
+    width: 100%;
+  }
 }

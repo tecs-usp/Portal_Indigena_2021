@@ -1,137 +1,136 @@
 .navbar {
-    background-color: rgba(101, 19, 19, 0.8);
+  background-color: rgba(101, 19, 19, 0.8);
 }
 
 .navbar-mobile {
-    background-color: rgba(101, 19, 19, 0.8);
-    transition: background-color 1s;
+  background-color: rgba(101, 19, 19, 0.8);
+  transition: background-color 1s;
 }
 
 .header-img-top {
-    width: 100%;
-    height: 60vh;
-    background-image: url("../img/Imagem_casa_inicio_vermelha.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  background-image: url("../img/Imagem_casa_inicio_vermelha.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .banner {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .banner p {
-    font-size: 1.75em;
-    text-align: center;
-    line-height: 130%;
-    color: #767676;
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 130%;
+  color: #767676;
 }
 
 .banner__text--orange {
-    color: #E78A6D;
+  color: #e78a6d;
 }
 
 .banner img {
-    width: 100px;
+  width: 100px;
 }
 
 .bottom-section {
-    background-image: url("../img/imagem_fundo_blur.jpeg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding-bottom: 5%;
+  background-image: url("../img/imagem_fundo_blur.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-bottom: 5%;
 }
 
 .banner__section {
-    justify-content: center;
-    background-color: rgba(101, 19, 19, 0.88);
+  justify-content: center;
+  background-color: rgba(101, 19, 19, 0.88);
 }
 
 .banner__section p {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .cards {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
 }
 
 .card-item {
-    margin-top: 2%;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 375px;
-    text-decoration: none;
+  margin-top: 2%;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 375px;
+  text-decoration: none;
 }
 
 .card-item .item-img {
-    width: 100%;
+  width: 100%;
 }
 
-.card-item .item-text{
-    background-color: rgba(100, 47, 30, 0.6);
-    display: block;
-    padding: 5px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 1.6em;
+.card-item .item-text {
+  background-color: rgba(100, 47, 30, 0.6);
+  display: block;
+  padding: 5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.6em;
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        font-size: 0.875em;
-    }
+  body {
+    font-size: 0.875em;
+  }
 
-    .navbar {
-        background-color: rgba(101, 19, 19, 1);
-    }
+  .navbar {
+    background-color: rgba(101, 19, 19, 1);
+  }
 
-    .banner img {
-        width: 75px;
-    }
+  .banner img {
+    width: 75px;
+  }
 
-    .bottom-section .banner__section {
-        padding-top: 70px;
-        padding-bottom: 70px;
-        padding-right: 30px;
-        padding-left: 30px;
-        background-color: rgba(101, 19, 19, 0.70);
-    }
+  .bottom-section .banner__section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgba(101, 19, 19, 0.7);
+  }
 
-    .cards {
-        padding-top: 10%;
-        padding-bottom: 5%;
-    }
+  .cards {
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
 
-    .card-item {
-        width: 85%;
-    }
+  .card-item {
+    width: 85%;
+  }
 
-    .card-item:not(:first-child) {
-        margin-top: 15%;
-    }
+  .card-item:not(:first-child) {
+    margin-top: 15%;
+  }
 
-    .banner p {
-        font-size: 2em;
-    }
+  .banner p {
+    font-size: 2em;
+  }
 
-    .card-item .item-text {
-        font-size: 1.8em;
-    }
+  .card-item .item-text {
+    font-size: 1.8em;
+  }
 
-    .bottom-section {
-        background-image: url("../img/aldeia_panoramica_mobile.jpeg");
-        background-size: cover;
-        background-repeat: repeat-y;   
-    }
-    
+  .bottom-section {
+    background-image: url("../img/aldeia_panoramica_mobile.jpeg");
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
 }

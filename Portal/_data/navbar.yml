@@ -1,0 +1,28 @@
+navbar-mobile:
+  - name: Portal Indígena
+    link: /
+
+navbar:
+  - name: Portal Indígena
+    link: /
+
+  - name: Aldeias
+    inline: true
+    items:
+      - name: Guaviraty
+        link: /aldeias/guaviraty.html
+
+      - name: Tangará
+        link: /aldeias/tangara.html
+
+      - name: Yyrexakã
+        link: /aldeias/yyrexaka.html
+
+  - name: Sobre Nós
+    dropdown: true
+    items:
+      - name: Rede Indígena
+        link: /sobre-rede-indigena.html
+
+      - name: O Tecs
+        link: /sobre-tecs.html
