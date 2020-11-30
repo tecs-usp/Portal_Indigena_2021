@@ -25,21 +25,19 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.banner p {
-  font-size: 1.75em;
-  text-align: center;
-  line-height: 130%;
-  color: #767676;
+  p {
+    font-size: 1.75em;
+    text-align: center;
+    line-height: 130%;
+    color: #767676;
+  }
+  img {
+    width: 100px;
+  }
 }
 
 .banner__text--orange {
   color: #e78a6d;
-}
-
-.banner img {
-  width: 100px;
 }
 
 .bottom-section {
@@ -53,10 +51,9 @@
 .banner__section {
   justify-content: center;
   background-color: rgba(101, 19, 19, 0.88);
-}
-
-.banner__section p {
-  color: #ffffff;
+  p {
+    color: #ffffff;
+  }
 }
 
 .cards {
@@ -74,19 +71,19 @@
   margin-right: 10px;
   width: 375px;
   text-decoration: none;
-}
 
-.card-item .item-img {
-  width: 100%;
-}
+  .item-img {
+    width: 100%;
+  }
 
-.card-item .item-text {
-  background-color: rgba(100, 47, 30, 0.6);
-  display: block;
-  padding: 5px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 1.6em;
+  .item-text {
+    background-color: rgba(100, 47, 30, 0.6);
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.6em;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -98,16 +95,13 @@
     background-color: rgba(101, 19, 19, 1);
   }
 
-  .banner img {
-    width: 75px;
-  }
-
-  .bottom-section .banner__section {
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-right: 30px;
-    padding-left: 30px;
-    background-color: rgba(101, 19, 19, 0.7);
+  .banner {
+    img {
+      width: 75px;
+    }
+    p {
+      font-size: 2em;
+    }
   }
 
   .cards {
@@ -117,23 +111,24 @@
 
   .card-item {
     width: 85%;
-  }
-
-  .card-item:not(:first-child) {
-    margin-top: 15%;
-  }
-
-  .banner p {
-    font-size: 2em;
-  }
-
-  .card-item .item-text {
-    font-size: 1.8em;
+    &:not(:first-child) {
+      margin-top: 15%;
+    }
+    .item-text {
+      font-size: 1.8em;
+    }
   }
 
   .bottom-section {
     background-image: url("../img/aldeia_panoramica_mobile.jpeg");
     background-size: cover;
     background-repeat: repeat-y;
+    .banner__section {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      padding-right: 30px;
+      padding-left: 30px;
+      background-color: rgba(101, 19, 19, 0.7);
+    }
   }
 }
