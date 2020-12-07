@@ -1,5 +1,7 @@
 navbar-mobile:
   - name: Portal Indígena
+    dropdown: false
+    ddd: true
     link: /
 
 navbar:
