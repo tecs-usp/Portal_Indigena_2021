@@ -1,3 +1,6 @@
+---
+---
+
 @font-face {
   font-family: "Petrona Regular";
   src: url("../fonts/Petrona-Regular.ttf");
@@ -28,39 +31,32 @@ body {
 .historia-aldeia {
   margin: 10px 100px;
   line-height: 25px;
+  p {
+    margin-top: 15px;
+    text-align: justify;
+  }
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+  }
 }
 
-.conteudo-aldeia p,
-.historia-aldeia p {
-  margin-top: 15px;
-  text-align: justify;
-}
-.conteudo-aldeia h2,
-.historia-aldeia h2 {
-  text-align: center;
-  font-size: 30px;
-  padding-top: 50px;
-}
-
-.localizacao p {
-  margin: 10px 0;
-  text-align: center;
-}
-
-.localizacao p,
-h2 {
-  margin: 10px 100px;
-  line-height: 25px;
-}
-
-.localizacao h2 {
-  text-align: center;
-  font-size: 30px;
-  margin-top: 50px;
-}
-
-.banner img {
-  width: 100px;
+.localizacao {
+  p {
+    margin: 10px 0;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  p,
+  h2 {
+    margin: 10px 100px;
+    line-height: 25px;
+  }
 }
 
 .banner {
@@ -69,6 +65,9 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  img {
+    width: 100px;
+  }
 }
 
 .banner-footer {
@@ -100,10 +99,9 @@ h2 {
 
 .conteudo {
   flex: 1;
-}
-
-.conteudo p {
-  line-height: 165%;
+  p {
+    line-height: 165%;
+  }
 }
 
 .imagem-tangara-menu {
@@ -127,23 +125,22 @@ h2 {
 
 .menu-lateral {
   position: sticky;
-}
-
-.menu-lateral ul li {
-  color: white;
-  padding-left: 30px;
-  padding-bottom: 20px;
-  font-size: 20px;
-}
-
-.menu-lateral ul li a {
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.menu-lateral ul li a:hover {
-  text-decoration: underline;
+  ul {
+    li {
+      color: white;
+      padding-left: 30px;
+      padding-bottom: 20px;
+      font-size: 20px;
+      a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 
 .contato {
@@ -151,12 +148,11 @@ h2 {
   border-top: 1px solid #ffffff;
   margin: 0 30px;
   padding-top: 20px;
-}
-
-.contato p {
-  padding-top: 20px;
-  font-weight: 100;
-  font-size: 24px;
+  p {
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 24px;
+  }
 }
 
 .conteudo h2 {
@@ -210,10 +206,9 @@ h2 {
     color: #ffffff;
     margin: 0;
     padding: 20px;
-  }
-
-  .titulo-mobile h2 {
-    margin: 0;
+    h2 {
+      margin: 0;
+    }
   }
 
   .total {

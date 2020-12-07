@@ -1,3 +1,6 @@
+---
+---
+
 @font-face {
   font-family: "Petrona Regular";
   src: url("../fonts/Petrona-Regular.ttf");
@@ -19,6 +22,21 @@
   text-align: justify;
   padding: 3%;
   margin: 10px 60px;
+  p {
+    line-height: 165%;
+    margin-top: 10px;
+    font-weight: 100;
+  }
+  img {
+    margin-top: 3%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  span {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 1%;
+  }
 }
 
 .conteudo-titulo {
@@ -26,24 +44,13 @@
   padding-bottom: 1%;
   font-weight: bold;
   font-size: 1.875em;
-}
-
-.conteudo p {
-  line-height: 165%;
-  margin-top: 10px;
-  font-weight: 100;
-}
-
-.conteudo img {
-  margin-top: 3%;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.conteudo span {
-  font-size: 0.9em;
-  text-align: center;
-  margin-top: 1%;
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
 }
 
 .img-wrapper {
@@ -63,21 +70,23 @@
   padding-top: 20px;
 }
 
-.menu-lateral ul li {
-  color: white;
-  padding-left: 30px;
-  padding-bottom: 20px;
-  font-size: 20px;
-}
-
-.menu-lateral ul li a {
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.menu-lateral ul li a:hover {
-  text-decoration: underline;
+.menu-lateral {
+  ul {
+    li {
+      color: white;
+      padding-left: 30px;
+      padding-bottom: 20px;
+      font-size: 20px;
+      a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 
 .contato {
@@ -85,20 +94,11 @@
   border-top: 1px solid #ffffff;
   margin: 0 30px;
   padding-top: 20px;
-}
-
-.contato p {
-  padding-top: 20px;
-  font-weight: 100;
-  font-size: 24px;
-}
-
-.conteudo-titulo-h3 {
-  text-align: center;
-  margin-top: 20px;
-  padding: 2%;
-  font-weight: bold;
-  font-size: 1.5em;
+  p {
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 24px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
