@@ -19,6 +19,11 @@ body {
   font-size: 1em;
 }
 
+// header {
+//   position: fixed;
+//   width: 100%;
+//   z-index: 5;
+// }
 // top navigation
 .navbar {
   position: relative;
@@ -85,8 +90,9 @@ body {
   min-height: 100%;
   width: 350px;
   .menu-content {
+    top: 0;
     position: sticky;
-    padding-left: 24px;
+    padding: 0 24px;
 
     .titulo-menu {
       font-size: 40px;
@@ -100,7 +106,7 @@ body {
       color: white;
       border-top: 1px solid #ffffff;
       margin: 0 0;
-      padding-top: 20px;
+      padding-top: 24px;
       p {
         padding-top: 20px;
         font-weight: 100;
@@ -130,19 +136,6 @@ body {
         }
       }
     }
-  }
-}
-
-.conteudo {
-  flex: 1;
-  p {
-    line-height: 165%;
-  }
-}
-
-p {
-  &.mail {
-    padding-top: 5px;
   }
 }
 
