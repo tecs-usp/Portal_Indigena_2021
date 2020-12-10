@@ -1,13 +1,14 @@
 backend:
   name: github
   repo: tecs-usp/Portal_Indigena_2020
-  branch: cms # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
   # site_domain: gabriel-my-blog.netlify.app
 media_folder: "Portal/assets/uploads"
 collections:
   - name: aldeias
     label: "Aldeias"
     folder: "Portal/_aldeias/"
+    extension: html
     create: true
     editor:
       preview: false
