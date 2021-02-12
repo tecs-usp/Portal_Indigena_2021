@@ -1,13 +1,26 @@
 ---
 ---
 
-.navbar {
-  background-color: rgba(101, 19, 19, 0.8);
+@font-face {
+  font-family: "Petrona Regular";
+  src: url("../fonts/Petrona-Regular.ttf");
 }
 
-.navbar-mobile {
+:root {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Petrona Regular";
+  font-size: 1em;
+}
+
+.navbar {
   background-color: rgba(101, 19, 19, 0.8);
-  transition: background-color 1s;
 }
 
 .header-img-top {

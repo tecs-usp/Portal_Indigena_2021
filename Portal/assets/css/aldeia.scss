@@ -43,6 +43,7 @@ body {
 }
 
 .localizacao {
+  margin-top: 64px;
   p {
     margin: 10px 0;
     text-align: center;
@@ -57,30 +58,6 @@ body {
     margin: 10px 100px;
     line-height: 25px;
   }
-}
-
-.banner {
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  img {
-    width: 100px;
-  }
-}
-
-.banner-footer {
-  justify-content: space-between;
-  background-color: rgba(88, 17, 17, 1);
-  color: #ffffff;
-  font-family: "Petrona Regular";
-  padding: 1.5em 1em;
-}
-
-.email {
-  color: #ffffff;
-  text-decoration: none;
 }
 
 .imagem-mobile,
@@ -109,50 +86,10 @@ body {
   height: 200px;
 }
 
-.titulo-menu {
-  font-size: 45px;
-  color: white;
-  padding-left: 30px;
-  padding-bottom: 40px;
-  padding-top: 20px;
-}
-
 .l-menu {
   background: #642f1e;
   height: 200%;
   width: 350px;
-}
-
-.menu-lateral {
-  position: sticky;
-  ul {
-    li {
-      color: white;
-      padding-left: 30px;
-      padding-bottom: 20px;
-      font-size: 20px;
-      a {
-        color: white;
-        font-size: 20px;
-        text-decoration: none;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-}
-
-.contato {
-  color: white;
-  border-top: 1px solid #ffffff;
-  margin: 0 30px;
-  padding-top: 20px;
-  p {
-    padding-top: 20px;
-    font-weight: 100;
-    font-size: 24px;
-  }
 }
 
 .conteudo h2 {
