@@ -1,4 +1,4 @@
-# Portal_Indigena_2020
+# Portal_Indigena_2021
 
 Projeto no qual se pretende desenvolver um portal centralizador de sites de algumas aldeias indígenas no estado de São Paulo. Posteriormente, pretende-se dar continuidade a esse portal através da confecção dos próprios sites individuais dos diferentes grupos e construção de ferramentas específicas para atender as demandas particulares das aldeias - tradutores Português-Guarani, site de vendas de mercadoria, calendário de atividades e agenda organizadora de eventos para turismo.
 
