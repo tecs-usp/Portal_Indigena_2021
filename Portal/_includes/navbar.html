@@ -8,14 +8,14 @@
     <ul class="navbar-nav">
       {% for item in site.data.navbar.navbar-mobile %}
       <li class="nav-item">
-        <span><a href="{{ item.link }}">{{ item.name }}</a></span>
+        <span><a href="{{ item.link }}" tabindex="0">{{ item.name }}</a></span>
       </li>
       {% endfor %}
     </ul>
   </nav>
 
   <nav class="navbar">
-    <a href="/index.html" class="navbar-brand">
+    <a href="/index.html" class="navbar-brand" tabindex="-1">
       <img src="/assets/img/logo.svg" alt="logo" />
     </a>
     <img
@@ -28,7 +28,7 @@
       {% for item in site.data.navbar.navbar %} {% if item.inline %}
       <li class="nav-item nav-item--flex">
         {% for subitem in item.items %}
-        <span><a href="{{ subitem.link }}">{{ subitem.name }}</a></span>
+        <span><a href="{{ subitem.link }}" tabindex="0">{{ subitem.name }}</a></span>
         {% endfor %}
       </li>
       {% elsif item.dropdown %}
@@ -42,7 +42,7 @@
       </li>
       {% else %}
       <li class="nav-item">
-        <a href="{{ item.link }}">{{ item.name }}</a>
+        <a href="{{ item.link }}" tabindex="0">{{ item.name }}</a>
       </li>
       {% endif %} {% endfor %}
     </ul>

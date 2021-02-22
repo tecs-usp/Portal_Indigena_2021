@@ -62,10 +62,13 @@ body {
 }
 
 .banner__section {
+  display: block;
   justify-content: center;
   background-color: rgba(101, 19, 19, 0.88);
+  padding: 40px 0;
   p {
     color: #ffffff;
+    margin: 12px 0;
   }
 }
 
@@ -84,6 +87,7 @@ body {
   margin-right: 10px;
   width: 375px;
   text-decoration: none;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
   .item-img {
     width: 100%;
@@ -96,6 +100,11 @@ body {
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.6em;
+  }
+
+  &:hover, &:focus {
+    transform: scale(1.05);
+    box-shadow: 0 0 16px rgba(0,0, 0, 0.7);
   }
 }
 
