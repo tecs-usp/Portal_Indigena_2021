@@ -1,13 +1,14 @@
 ---
 ---
 
+@font-face {
+  font-family: "Petrona Regular";
+  src: url("../assets/fonts/Petrona-Regular.ttf");
+}
+
+body {
+  font-family: "Petrona Regular";
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "rede",
-        "reset",
-        "index",
-        "menu",
-        "aldeia"
-
-;
+@import "rede", "reset", "index", "menu", "aldeia";

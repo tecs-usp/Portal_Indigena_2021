@@ -1,7 +1,8 @@
 @font-face {
   font-family: "Petrona Regular";
-  src: url("../fonts/Petrona-Regular.ttf");
+  src: url("../assets/fonts/Petrona-Regular.ttf");
 }
+
 
 :root {
   box-sizing: border-box;
@@ -16,18 +17,18 @@ body {
   font-size: 1em;
 
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 30px;
     margin: 12px;
     padding: 16px;
     font-weight: bold;
   }
 
   h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
     margin: 12px;
     padding: 16px;
@@ -41,7 +42,7 @@ body {
 .header-img-top {
   width: 100%;
   height: 60vh;
-  background-image: url("../img/Imagem_casa_inicio_vermelha.jpg");
+  background-image: url("../assets/img/Imagem_casa_inicio_vermelha_desktop.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -54,7 +55,7 @@ body {
   justify-content: space-around;
   align-items: center;
   p {
-    font-size: 1.75em;
+    font-size: 24px;
     text-align: center;
     line-height: 130%;
     color: #767676;
@@ -69,7 +70,7 @@ body {
 }
 
 .bottom-section {
-  background-image: url("../img/imagem_fundo_blur.jpeg");
+  background-image: url("../assets/img/imagem_fundo_blur.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -157,7 +158,7 @@ body {
   }
 
   .bottom-section {
-    background-image: url("../img/aldeia_panoramica_mobile.jpeg");
+    background-image: url("../assets/img/aldeia_panoramica_mobile.jpeg");
     background-size: cover;
     background-repeat: repeat-y;
     .banner__section {

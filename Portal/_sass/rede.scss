@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "Petrona Regular";
+  src: url("../assets/fonts/Petrona-Regular.ttf");
+}
+
 .rede {
   width: 100%;
   display: flex;
+  font-family: "Petrona Regular" !important;
 
   .menu-content {
     top: 0;
