@@ -54,11 +54,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 body { font-family: "Petrona Regular"; font-size: 1em; }
 
-body p { font-size: 20px; }
+body header { height: 64px; }
 
-body h2 { font-size: 36px; margin: 12px; padding: 16px; font-weight: bold; }
+body p { font-size: 18px; }
 
-body h3 { font-size: 28px; font-weight: bold; margin: 12px; padding: 16px; }
+body h2 { font-size: 30px; margin: 12px; padding: 16px; font-weight: bold; }
+
+body h3 { font-size: 24px; font-weight: bold; margin: 12px; padding: 16px; }
 
 .navbar { background-color: rgba(101, 19, 19, 0.8); }
 
@@ -66,7 +68,7 @@ body h3 { font-size: 28px; font-weight: bold; margin: 12px; padding: 16px; }
 
 .banner { width: 100%; padding: 10px; display: flex; justify-content: space-around; align-items: center; }
 
-.banner p { font-size: 1.75em; text-align: center; line-height: 130%; color: #767676; }
+.banner p { font-size: 24px; text-align: center; line-height: 130%; color: #767676; }
 
 .banner img { width: 100px; }
 
@@ -90,11 +92,11 @@ body h3 { font-size: 28px; font-weight: bold; margin: 12px; padding: 16px; }
 
 @media only screen and (max-width: 768px) { body { font-size: 0.875em; } .navbar { background-color: #651313; } .banner img { width: 75px; } .banner p { font-size: 2em; } .cards { padding-top: 10%; padding-bottom: 5%; } .card-item { width: 85%; } .card-item:not(:first-child) { margin-top: 15%; } .card-item .item-text { font-size: 1.8em; } .bottom-section { background-image: url("../assets/img/aldeia_panoramica_mobile.jpeg"); background-size: cover; background-repeat: repeat-y; } .bottom-section .banner__section { padding-top: 70px; padding-bottom: 70px; padding-right: 30px; padding-left: 30px; background-color: rgba(101, 19, 19, 0.7); } }
 
-.navbar { position: relative; background-color: #651313; padding: 4px 16px; width: 100%; display: flex; align-items: center; float: left; }
+.navbar { position: fixed; z-index: 4; background-color: #651313; padding: 4px 16px; width: 100%; display: flex; align-items: center; float: left; }
 
 .navbar .navbar-brand { display: flex; justify-content: center; align-items: center; }
 
-.navbar .navbar-brand img { height: 70px; }
+.navbar .navbar-brand img { height: 64px; }
 
 .navbar-nav { width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-around; font-size: 1.75em; }
 
@@ -110,7 +112,7 @@ body h3 { font-size: 28px; font-weight: bold; margin: 12px; padding: 16px; }
 
 .navbar-nav .nav-item span:first-child { padding-left: 12px; }
 
-.navbar-nav .nav-item a { text-decoration: none; color: #ffffff; outline: none; padding: 12px; border-radius: 8px; transition: background-color 0.2s ease-in-out; font-size: 28px; }
+.navbar-nav .nav-item a { text-decoration: none; color: #ffffff; outline: none; padding: 12px; border-radius: 8px; transition: background-color 0.2s ease-in-out; font-size: 24px; }
 
 .navbar-nav .nav-item a:hover, .navbar-nav .nav-item a:focus { background-color: #dddddd30; }
 
