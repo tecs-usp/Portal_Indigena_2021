@@ -1,6 +1,3 @@
----
----
-
 @font-face {
   font-family: "Petrona Regular";
   src: url("../fonts/Petrona-Regular.ttf");
@@ -17,6 +14,24 @@
 body {
   font-family: "Petrona Regular";
   font-size: 1em;
+
+  p {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin: 12px;
+    padding: 16px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 12px;
+    padding: 16px;
+  }
 }
 
 .navbar {

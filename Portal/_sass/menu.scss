@@ -1,24 +1,3 @@
----
----
-
-@font-face {
-  font-family: "Petrona Regular";
-  src: url("../fonts/Petrona-Regular.ttf");
-}
-
-:root {
-  box-sizing: border-box;
-}
-
-* {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: "Petrona Regular";
-  font-size: 1em;
-}
-
 .navbar {
   position: relative;
   background-color: rgba(101, 19, 19, 1);
@@ -76,6 +55,7 @@ body {
       padding: 12px;
       border-radius: 8px;
       transition: background-color 0.2s ease-in-out;
+      font-size: 28px;
 
 
       &:hover, &:focus {
