@@ -1,22 +1,22 @@
 ---
 layout: default
-maincss: "../assets/css/aldeia.css"
+maincss: "../css/main.css"
 ---
 
-<div class="total">
+<div class="aldeia">
   <div class="menu-lateral">
-    <img src="/assets/img/habitacao_yyrexaka.jpg" class="imagem-tangara-menu" />
+    <img src="/assets/img/habitacao_yyrexaka.jpg" class="imagem-menu-lateral" />
     <div class="menu-content">
       {% assign titulo = page.title | split: " " %}
       <h1 class="titulo-menu">{{ titulo[0] }} <br />{{ titulo[1] }}</h1>
-      <ul>
+      <ul class="menu-lateral-items">
         <li><a href="#conteudo-aldeia">Sobre a aldeia</a></li>
         <li><a href="#historia-aldeia">História</a></li>
         <li><a href="#localizacao">Localização</a></li>
       </ul>
       <div class="contato">
         <p>Contato:</p>
-        <div class="logos">
+        <!-- <div class="logos">
           <p>
             <img src="/assets/img/instagram.svg" class="logo-redes-sociais" />
             Instagram
@@ -25,7 +25,7 @@ maincss: "../assets/css/aldeia.css"
             <img src="/assets/img/facebook.svg" class="logo-redes-sociais" />
             Facebook
           </p>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

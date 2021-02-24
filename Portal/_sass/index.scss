@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Petrona Regular";
+  src: url("../assets/fonts/Petrona-Regular.ttf");
+}
+
+
+:root {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Petrona Regular";
+  font-size: 1em;
+
+  header {
+    height: 64px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin: 12px;
+    padding: 16px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 12px;
+    padding: 16px;
+  }
+}
+
+.navbar {
+  background-color: rgba(101, 19, 19, 0.8);
+}
+
+.header-img-top {
+  width: 100%;
+  height: 60vh;
+  background-image: url("../assets/img/Imagem_casa_inicio_vermelha_desktop.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    font-size: 24px;
+    text-align: center;
+    line-height: 130%;
+    color: #767676;
+  }
+  img {
+    width: 100px;
+  }
+}
+
+.banner__text--orange {
+  color: #e78a6d;
+}
+
+.bottom-section {
+  background-image: url("../assets/img/imagem_fundo_blur.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-bottom: 5%;
+}
+
+.banner__section {
+  display: block;
+  justify-content: center;
+  background-color: rgba(101, 19, 19, 0.88);
+  padding: 40px 0;
+  p {
+    color: #ffffff;
+    margin: 12px 0;
+  }
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
+
+.card-item {
+  margin-top: 2%;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 375px;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  .item-img {
+    width: 100%;
+  }
+
+  .item-text {
+    background-color: rgba(100, 47, 30, 0.6);
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.6em;
+  }
+
+  &:hover, &:focus {
+    transform: scale(1.05);
+    box-shadow: 0 0 16px rgba(0,0, 0, 0.7);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 0.875em;
+  }
+
+  .navbar {
+    background-color: rgba(101, 19, 19, 1);
+  }
+
+  .banner {
+    img {
+      width: 75px;
+    }
+    p {
+      font-size: 2em;
+    }
+  }
+
+  .cards {
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+
+  .card-item {
+    width: 85%;
+    &:not(:first-child) {
+      margin-top: 15%;
+    }
+    .item-text {
+      font-size: 1.8em;
+    }
+  }
+
+  .bottom-section {
+    background-image: url("../assets/img/aldeia_panoramica_mobile.jpeg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    .banner__section {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      padding-right: 30px;
+      padding-left: 30px;
+      background-color: rgba(101, 19, 19, 0.7);
+    }
+  }
+}

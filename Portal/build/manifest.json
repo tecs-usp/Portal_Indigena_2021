@@ -1,0 +1,31 @@
+{
+  "name": "Portal Indígena",
+  "short_name": "PI",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#641313",
+  "theme_color": "#641313",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/img/icons/android-icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "assets/img/icons/android-icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "assets/img/icons/android-icon-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "assets/img/icons/android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

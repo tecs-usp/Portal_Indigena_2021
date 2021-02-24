@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Petrona Regular";
+  src: url("../assets/fonts/Petrona-Regular.ttf");
+}
+
+.rede {
+  width: 100%;
+  display: flex;
+  font-family: "Petrona Regular" !important;
+
+  .menu-content {
+    top: 0;
+
+    .contato {
+      .title {
+        // font-size: 24px;
+      }
+      p {
+        margin: 8px 0;
+      }
+      .logos {
+        a {
+          text-decoration: none;
+          color: #ffffff;
+          outline: none;
+          padding: 12px;
+          border-radius: 8px;
+          transition: background-color 0.2s ease-in-out;
+
+          &:hover,
+          &:focus {
+            background-color: #dddddd30;
+          }
+        }
+      }
+    }
+  }
+
+  .conteudo-rede {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 12px 64px 64px;
+    p {
+      line-height: 165%;
+      margin-top: 10px;
+      font-weight: 100;
+    }
+    img {
+      margin-top: 40px;
+      margin-bottom: 12px;
+      width: 100%;
+      border-radius: 10px;
+    }
+    span {
+      font-size: 0.9em;
+      text-align: center;
+      margin-top: 1%;
+    }
+  }
+
+  .conteudo-titulo {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .img-wrapper {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .imagem-menu-lateral-rede {
+    width: 70%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .menu-lateral {
+      display: none;
+    }
+
+    .conteudo-rede {
+      margin: 12px 32px 32px;
+    }
+    .conteudo-titulo {
+      margin-top: 96px;
+    }
+  }
+}
