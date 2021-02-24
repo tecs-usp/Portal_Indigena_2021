@@ -3,7 +3,7 @@ layout: default
 maincss: "../css/main.css"
 ---
 
-<div class="aldeia">
+<div class="aldeia-container">
   <!-- <div class="menu-lateral">
     <img src="/assets/img/habitacao_yyrexaka.jpg" class="imagem-menu-lateral" />
     <div class="menu-content">
@@ -29,15 +29,13 @@ maincss: "../css/main.css"
       </div>
     </div>
   </div> -->
-  <div class="imagem-aldeia">
-    <img src="/assets/img/habitacao_yyrexaka.jpg" alt="Imagem Yyrexakã" />
+  <div class="intro-container">
+    <div class="imagem-aldeia">
+      <img src="/assets/img/habitacao_yyrexaka.jpg" alt="Imagem Yyrexakã" />
+    </div>
+    <div class="titulo-aldeia">
+      <h2>{{ page.title }}</h2>
+    </div>
   </div>
-  <div class="titulo-aldeia">
-    <h2>{{ page.title }}</h2>
-  </div>
-  <!-- <div class="aldeia-imagem">
-    <img src="/assets/img/habitacao_yyrexaka.jpg" class="imagem-menu-lateral" />
-
-  </div> -->
   <div class="conteudo">{{ content }}</div>
 </div>
