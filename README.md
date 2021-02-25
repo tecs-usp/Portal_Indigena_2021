@@ -8,11 +8,20 @@ Num apanhado rápido das etapas inicias já planejadas até então, o portal ind
 
 ### - Sobre o Jekyll
 
-O projeto utiliza o Jekyll para gerar o conteúdo do site. Para iniciar o servidor, entrar na pasta "Portal" e rodar o comando "bundle exec jekyll serve". O servidor abre automaticamneente no endereço http://localhost:4000".
+O projeto utiliza o Jekyll para gerar o conteúdo do site. Para iniciar o servidor, entrar na pasta `Portal` e rodar o comando `bundle exec jekyll serve`. O servidor abre automaticamneente no endereço http://localhost:4000".
 
 Instruções para instalar o Jekyll em https://jekyllrb.com/docs/
 
 _-> Dica: rodar "bundle exec jekyll serve --livereload" para ativar o live reload do servidor._
+
+### - Sobre a Multi-Linguagem
+
+Para a disponibilização de múltiplas línguas no projeto, utilizamos o plugin Jekyll Multiple Languages Plugin (https://github.com/kurtsson/jekyll-multiple-languages-plugin). 
+
+Há documentação no git fornecido, mas conceitos básicos: 
+- Arquivos `.yml` de línguas dentro da pasta `_i18n`, com as diferentes traduções e suas chaves (ex: `pt.yml`, `en.yml`, `gn.yml`)
+- Para incuir o texto traduzido de uma chave, utilizar a sintaxe `{% t chave %}` 
+- Serão criadas pastas para as diferentes línguas, que podem ser acessadas pela url como: `www.site.com/en` ( para língua en )
 
 ### - Sobre o GitDuck
 
