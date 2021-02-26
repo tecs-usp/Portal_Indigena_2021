@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   float: left;
-  // opacity: 0.88;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.75);
   transition: background-color 0.1s ease-in-out;
 
   &:hover {
@@ -67,7 +67,6 @@
 
 
       &:hover, &:focus {
-        // color: #ddd;
         background-color: #dddddd30;
       }
     }
@@ -75,59 +74,58 @@
 }
 
 // side navigation
-.menu-lateral {
-  background: #642f1e;
-  min-height: 100%;
-  width: 350px;
-  .menu-content {
-    top: 0;
-    position: sticky;
-    padding: 0 24px;
+// .menu-lateral {
+//   background: #642f1e;
+//   min-height: 100%;
+//   width: 350px;
+//   .menu-content {
+//     top: 0;
+//     position: sticky;
+//     padding: 0 24px;
 
-    .titulo-menu {
-      font-size: 40px;
-      color: white;
-      // padding-left: 30px;
-      padding-bottom: 40px;
-      padding-top: 20px;
-    }
+//     .titulo-menu {
+//       font-size: 40px;
+//       color: white;
+//       padding-bottom: 40px;
+//       padding-top: 20px;
+//     }
 
-    .contato {
-      color: white;
-      border-top: 1px solid #ffffff;
-      margin: 0 0;
-      padding-top: 24px;
-      p {
-        padding-top: 20px;
-        font-weight: 100;
-        font-size: 24px;
-      }
+//     .contato {
+//       color: white;
+//       border-top: 1px solid #ffffff;
+//       margin: 0 0;
+//       padding-top: 24px;
+//       p {
+//         padding-top: 20px;
+//         font-weight: 100;
+//         font-size: 24px;
+//       }
 
-      .logo-redes-sociais {
-        width: 30px !important;
-        vertical-align: middle;
-        margin-right: 5px;
-      }
-    }
+//       .logo-redes-sociais {
+//         width: 30px !important;
+//         vertical-align: middle;
+//         margin-right: 5px;
+//       }
+//     }
 
-    ul {
-      li {
-        color: white;
-        // padding-left: 30px;
-        padding-bottom: 20px;
-        font-size: 20px;
-        a {
-          color: white;
-          font-size: 20px;
-          text-decoration: none;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-  }
-}
+//     ul {
+//       li {
+//         color: white;
+//         // padding-left: 30px;
+//         padding-bottom: 20px;
+//         font-size: 20px;
+//         a {
+//           color: white;
+//           font-size: 20px;
+//           text-decoration: none;
+//           &:hover {
+//             text-decoration: underline;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 .navbar-mobile {
   display: none;
@@ -211,12 +209,14 @@
   .navbar {
     position: fixed;
     top: 0;
-    left: -80%;
+    left: -90%;
     width: 80%;
     height: 100vh;
     padding: 5%;
     display: block;
     transition: left 1s;
+    background-color: rgba(101, 19, 19, 1);
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3);
     .navbar-nav {
       margin-left: 0px;
       margin-top: 15%;
