@@ -1,2 +1,4 @@
-global:
-  test: teste, mas em guarani
+aldeias:
+  guaviraty:
+    sobre_a_aldeia: em guarani
+    historia: tekoa

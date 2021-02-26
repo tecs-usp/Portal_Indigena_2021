@@ -1,2 +1,18 @@
 global:
   test: teste, mas em inglês
+
+aldeias:
+  guaviraty:
+    texto1: "   "
+    texto2: "   "
+  yrexaka:  
+    texto1:
+  tangara: 
+
+home:
+  texto_boas_vindas: seja bem vindo
+
+sobre_nos: 
+  sobre_tecs:
+    historia: 
+  sobre_rede: 

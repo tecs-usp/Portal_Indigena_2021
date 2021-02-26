@@ -1,14 +1,24 @@
 backend:
   name: github
-  repo: tecs-usp/Portal_Indigena_2020
+  repo: tecs-usp/Portal_Indigena_2021
   branch: master # Branch to update (optional; defaults to master)
-  # site_domain: gabriel-my-blog.netlify.app
 media_folder: "Portal/assets/uploads"
 collections:
   - name: aldeias
     label: "Aldeias"
     folder: "Portal/_aldeias/"
     extension: html
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: Layout, name: layout, widget: string, default: aldeia }
+      - { label: Titulo, name: title, widget: string }
+      - { label: Body, name: body, widget: markdown }
+  - name: i18n
+    label: "Traducoes"
+    folder: "Portal/_i18n/"
+    extension: yml
     create: true
     editor:
       preview: false
