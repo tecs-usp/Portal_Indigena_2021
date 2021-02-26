@@ -3,7 +3,7 @@
   src: url("../assets/fonts/Petrona-Regular.ttf");
 }
 
-$image-height: 80vh;
+$image-height: 90vh;
 
 .aldeia-container {
   display: flex;
@@ -23,8 +23,10 @@ $image-height: 80vh;
       justify-content: center;
       align-items: center;
       width: 100%;
-      height: $image-height;
+      height: calc(100vh - 72px);
       position: relative;
+      // background-color: #13662B;
+      background-color: #33660D;
 
       &::after {
         background-image: url("../assets/img/imagem_fundo_blur.jpeg");
@@ -35,9 +37,9 @@ $image-height: 80vh;
         height: 100%;
         margin: 64px 0;
         position: absolute;
-        z-index: -1;
+        // z-index: -1;
         content: "";
-        opacity: 0.8;
+        opacity: 0.7;
       }
 
       img {

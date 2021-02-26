@@ -17,8 +17,16 @@ body {
   font-size: 1em;
 
   header {
+    position: relative;
     height: 72px;
     z-index: 4;
+    background-color: rgba(101, 19, 19, 1);
+    // opacity: 0.9;
+    // transition: opacity 0.1s ease-in-out;
+
+    // &:hover {
+    //   opacity: 1;
+    // }
   }
 
   p {
