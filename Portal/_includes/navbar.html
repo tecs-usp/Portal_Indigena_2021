@@ -1,5 +1,5 @@
-<header>
-  <nav class="navbar-mobile">
+<header aria-label="Header">
+  <nav class="navbar-mobile" aria-label="navbar-mobile">
     <img
       onclick="openMenu()"
       src="/assets/img/menu_icon_open.svg"
@@ -7,14 +7,14 @@
     />
     <ul class="navbar-nav">
       {% for item in site.data.navbar.navbar-mobile %}
-      <li class="nav-item">
+      <li class="nav-item" >
         <span><a href="{{ item.link }}" tabindex="0">{{ item.name }}</a></span>
       </li>
       {% endfor %}
     </ul>
   </nav>
 
-  <nav class="navbar">
+  <nav class="navbar" aria-label="navbar">
     <a href="/" class="navbar-brand" tabindex="-1">
       <img src="/assets/img/logo.svg" alt="logo" />
     </a>
