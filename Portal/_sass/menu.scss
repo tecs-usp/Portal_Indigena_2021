@@ -2,7 +2,7 @@
 .navbar {
   position: fixed;
   z-index: 4;
-  background-color: rgba(101, 19, 19, 0.88);
+  background-color: rgba(101, 19, 19, 0.95);
   padding: 4px 16px;
   width: 100%;
   display: flex;
@@ -72,60 +72,6 @@
     }
   }
 }
-
-// side navigation
-// .menu-lateral {
-//   background: #642f1e;
-//   min-height: 100%;
-//   width: 350px;
-//   .menu-content {
-//     top: 0;
-//     position: sticky;
-//     padding: 0 24px;
-
-//     .titulo-menu {
-//       font-size: 40px;
-//       color: white;
-//       padding-bottom: 40px;
-//       padding-top: 20px;
-//     }
-
-//     .contato {
-//       color: white;
-//       border-top: 1px solid #ffffff;
-//       margin: 0 0;
-//       padding-top: 24px;
-//       p {
-//         padding-top: 20px;
-//         font-weight: 100;
-//         font-size: 24px;
-//       }
-
-//       .logo-redes-sociais {
-//         width: 30px !important;
-//         vertical-align: middle;
-//         margin-right: 5px;
-//       }
-//     }
-
-//     ul {
-//       li {
-//         color: white;
-//         // padding-left: 30px;
-//         padding-bottom: 20px;
-//         font-size: 20px;
-//         a {
-//           color: white;
-//           font-size: 20px;
-//           text-decoration: none;
-//           &:hover {
-//             text-decoration: underline;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
 
 .navbar-mobile {
   display: none;
