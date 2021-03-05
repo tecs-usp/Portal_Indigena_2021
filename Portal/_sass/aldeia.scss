@@ -76,6 +76,7 @@ $image-height: 80vh;
 
   .conteudo-aldeia {
     max-width: 1162px;
+    margin: 64px 0;
 
     .texto {
       margin: 12px 64px;
@@ -123,14 +124,11 @@ $image-height: 80vh;
     display: block;
 
     .conteudo-aldeia {
+      margin-top: 40px;
       .texto {
         margin: 12px 32px;
         text-align: justify;
       }
-    }
-
-    .conteudo {
-      padding-top: 40px;
     }
 
     .intro-container {
