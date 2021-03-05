@@ -12,13 +12,13 @@ navbar:
     inline: true
     items:
       - name: Guaviraty
-        link: /aldeias/guaviraty.html
+        link: /guaviraty
 
       - name: Tangará
-        link: /aldeias/tangara.html
+        link: /tangara
 
       - name: Yyrexakã
-        link: /aldeias/yyrexaka.html
+        link: /yyrexaka
 
   - name: Sobre Nós
     dropdown: true
