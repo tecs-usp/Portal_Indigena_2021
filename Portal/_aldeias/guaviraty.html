@@ -3,20 +3,26 @@ layout: aldeia
 title: Aldeia Guaviraty
 img: /assets/img/oca_aldeia.jpg
 ---
+
 <div class="conteudo-aldeia">
   <section id="sobre-aldeia" class="texto" aria-label="Sobre a aldeia">
-    <h2>Sobre a aldeia</h2>
+    <h2>{% t aldeias.guaviraty.sobre.titulo %}</h2>
     <p>
-      {% t aldeias.guaviraty.sobre %}
+      {% t aldeias.guaviraty.sobre.texto.p1 %}
     </p>
+    <p>
+      {% t aldeias.guaviraty.sobre.texto.p2 %}
+    </p>
+    {% for paragraph in site.data.pt.aldeias.guaviraty.sobre.texto %}
+      <p>{{ paragraph }}</p>
+    {% endfor %}
+
+    <!-- TODO pegar direito os paragrafos -->
 
   </section>
   <section id="historia-aldeia" class="texto" aria-label="História da aldeia">
-    <h2>História</h2>
-    <p>
-      {% t aldeias.guaviraty.historia %}
-    </p>
-    
+    <h2>{% t aldeias.guaviraty.historia.titulo %}</h2>
+    <p>{% t aldeias.guaviraty.historia.p1 %}</p>
   </section>
   <section id="localizacao" class="localizacao" aria-label="Localização">
     <h2>Localização</h2>

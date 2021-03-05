@@ -1,2 +1,116 @@
 global:
-  test: teste, mas em inglês
+  test: teste
+
+basepath: /en
+
+aldeias: 
+guaviraty: 
+  sobre:
+    titulo:
+      Sobre a aldeia
+    p1:
+      Guaviraty Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
+      hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
+      Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
+      aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a
+      consequat eros, id rutrum mi. Vestibulum cursus orci vitae bibendum
+      tristique. Suspendisse efficitur ultricies nulla, ut congue mauris tempus
+      nec. Duis ac fermentum mi. Vestibulum eget urna a diam vulputate tincidunt.
+      Aenean tempus elementum massa. Etiam id elit vehicula, congue risus ac,
+      pulvinar nulla.
+
+    p2:
+      Guaviraty Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu se sem consectetur aliquam mollis dolor. Maecenas volutpat, urna ac hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
+
+    p3:
+      Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a consequat eros, id rutrum mi. Vestibulum cursus orci vitae bibendum tristique. Suspendisse efficitur ultricies nulla, ut congue mauris tempus nec. Duis ac fermentum mi. Vestibulum eget urna a diam vulputate tincidunt. Aenean tempus elementum massa. Etiam id elit vehicula, congue risus ac, pulvinar nulla.
+      
+
+  historia: 
+    titulo:
+      História
+    p1:
+      Guaviraty Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
+      Guaviraty Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna achendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
+      Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
+      aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a
+      consequat eros, id rutrum mi. Vestibulum cursus orci vitae bibendum
+      tristique. Suspendisse efficitur ultricies nulla, ut congue mauris tempus
+      nec. Duis ac fermentum mi. Vestibulum eget urna a diam vulputate tincidunt.
+      Aenean tempus elementum massa. Etiam id elit vehicula, congue risus ac,
+      pulvinar nulla.
+
+tangara: 
+  sobre:
+    titulo:
+      Sobre a aldeia
+    p1: >-
+      Tangara Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
+      hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
+      Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
+      aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a
+      consequat eros, id rutrum mi. Vestibulum cursus orci vitae bibendum
+      tristique. Suspendisse efficitur ultricies nulla, ut congue mauris tempus
+      nec. Duis ac fermentum mi. Vestibulum eget urna a diam vulputate tincidunt.
+      Aenean tempus elementum massa. Etiam id elit vehicula, congue risus ac,
+      pulvinar nulla.
+
+    p2:
+      Tangara Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu se sem consectetur aliquam mollis dolor. Maecenas volutpat, urna ac hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
+
+    p3:
+      Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a consequat eros, id rutrum mi. Vestibulum cursus orci vitae bibendum tristique. Suspendisse efficitur ultricies nulla, ut congue mauris tempus nec. Duis ac fermentum mi. Vestibulum eget urna a diam vulputate tincidunt. Aenean tempus elementum massa. Etiam id elit vehicula, congue risus ac, pulvinar nulla.
+      
+
+  historia: 
+    titulo:
+      História
+    p1:
+      Tangara Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
+      Tangara Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna achendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
+      Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
+      aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a
+      consequat eros, id rutrum mi. Vestibulum cursus orci vitae bibendum
+      tristique. Suspendisse efficitur ultricies nulla, ut congue mauris tempus
+      nec. Duis ac fermentum mi. Vestibulum eget urna a diam vulputate tincidunt.
+      Aenean tempus elementum massa. Etiam id elit vehicula, congue risus ac,
+      pulvinar nulla.
+
+yrexaka: 
+  sobre:
+    titulo:
+      Sobre a aldeia
+    p1: >-
+      Yrexaka Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
+      hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
+      Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
+      aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a
+      consequat eros, id rutrum mi. Vestibulum cursus orci vitae bibendum
+      tristique. Suspendisse efficitur ultricies nulla, ut congue mauris tempus
+      nec. Duis ac fermentum mi. Vestibulum eget urna a diam vulputate tincidunt.
+      Aenean tempus elementum massa. Etiam id elit vehicula, congue risus ac,
+      pulvinar nulla.
+
+    p2:
+      Yrexaka Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu se sem consectetur aliquam mollis dolor. Maecenas volutpat, urna ac hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
+
+    p3:
+      Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a consequat eros, id rutrum mi. Vestibulum cursus orci vitae bibendum tristique. Suspendisse efficitur ultricies nulla, ut congue mauris tempus nec. Duis ac fermentum mi. Vestibulum eget urna a diam vulputate tincidunt. Aenean tempus elementum massa. Etiam id elit vehicula, congue risus ac, pulvinar nulla.
+      
+
+  historia: 
+    titulo:
+      História
+    p1:
+      Yrexaka Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
+
+
+sobre_nos:
+  titulo:
+    Sobre o projeto
+  projeto_portal:
+    falando sobre o portal
+  tecs:
+    sobre o tecs
+  rede:
+    sobre a rede
