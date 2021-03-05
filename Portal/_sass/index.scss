@@ -3,7 +3,6 @@
   src: url("../assets/fonts/Petrona-Regular.ttf");
 }
 
-
 :root {
   box-sizing: border-box;
 }
@@ -17,7 +16,10 @@ body {
   font-size: 1em;
 
   header {
-    height: 64px;
+    // position: relative;
+    height: 72px;
+    z-index: 4;
+    background-color: rgba(101, 19, 19, 1);
   }
 
   p {
@@ -70,7 +72,7 @@ body {
 }
 
 .banner__text--orange {
-  color: #e78a6d;
+  color: #B35810;
 }
 
 .bottom-section {
@@ -98,33 +100,38 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 5%;
-}
+  margin: 80px 0;
 
-.card-item {
-  margin-top: 2%;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 375px;
-  text-decoration: none;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  // TODO tornar o card-item mais 'flexível' -> caber imagens de tamanhos diversos
+  .card-item {
+    // margin-top: 2%;
+    // margin-left: 12px;
+    // margin-right: 12px;
+    margin: 16px;
+    width: 375px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
-  .item-img {
-    width: 100%;
-  }
+    .item-img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+    }
 
-  .item-text {
-    background-color: rgba(100, 47, 30, 0.6);
-    display: block;
-    padding: 5px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 1.6em;
-  }
+    .item-text {
+      background-color: rgba(100, 47, 30, 0.75);
+      display: block;
+      padding: 5px;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 1.6em;
+    }
 
-  &:hover, &:focus {
-    transform: scale(1.05);
-    box-shadow: 0 0 16px rgba(0,0, 0, 0.7);
+    &:hover,
+    &:focus {
+      transform: scale(1.05);
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.7);
+    }
   }
 }
 
