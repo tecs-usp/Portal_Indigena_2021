@@ -23,7 +23,7 @@ $image-height: 80vh;
       width: 100%;
       height: 88%;
       position: relative;
-      background-color: #35631C;
+      background-color: #35631c;
 
       &::after {
         background-image: url("../assets/img/caminho_casa_de_reza_blur.jpg");
@@ -55,8 +55,14 @@ $image-height: 80vh;
       color: #ffffff;
       margin: 0;
       padding: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-      h2 {
+      h1 {
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
         padding: 12px;
       }
     }
@@ -76,7 +82,8 @@ $image-height: 80vh;
       p {
         margin-top: 16px;
         text-align: justify;
-        // white-space: pre-wrap;
+        white-space: pre-wrap;
+        line-height: 1.5;
       }
       h2 {
         text-align: center;
@@ -106,7 +113,6 @@ $image-height: 80vh;
   .menu-content {
     top: 0;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -123,7 +129,6 @@ $image-height: 80vh;
       }
     }
 
-
     .conteudo {
       padding-top: 40px;
     }
@@ -134,7 +139,7 @@ $image-height: 80vh;
       .imagem-aldeia {
         margin-top: 0;
         height: unset;
-  
+
         img {
           width: 100% !important;
           margin: 72px 0 0 0;
@@ -147,11 +152,10 @@ $image-height: 80vh;
           display: none;
         }
       }
-  
+
       .titulo-aldeia {
         padding: 16px;
       }
-  
     }
   }
 }

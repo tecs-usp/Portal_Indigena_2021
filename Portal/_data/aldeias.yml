@@ -1,0 +1,15 @@
+aldeias:
+  - name: Guaviraty
+    link: guaviraty
+    img: /assets/img/oca_aldeia.jpg
+    alt: Foto da Oca
+
+  - name: Tangará
+    link: tangara
+    img: /assets/img/criancas.jpeg
+    alt: 3 crianças debaixo da porta observando o exterior
+
+  - name: Yyrexakã
+    link: yyrexaka
+    img: assets/img/habitacao_yyrexaka.jpg
+    alt: Casa feita de madeira

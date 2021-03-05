@@ -9,8 +9,8 @@ maincss: "css/main.css"
 
   <section class="banner" aria-label="Banner">
     <p>
-      <span>Bem-vindo ao</span> <br />
-      <span class="banner__text--orange">Portal Indígena</span>
+      <span>{% t home.bem_vindo %}</span> <br />
+      <span class="banner__text--orange">{% t home.portal %}</span>
     </p>
     <img src="assets/img/logo.svg" alt="Logo Banner" />
   </section>
@@ -18,28 +18,17 @@ maincss: "css/main.css"
   <section class="bottom-section" aria-label="Aldeias">
     <div class="banner banner__section">
       <p>
-        Aqui você encontra informações sobre aldeias e resistências indígenas do
-        Brasil.
+        {% t home.informacoes %}
       </p>
-      <p>Clique na foto de uma aldeia para saber mais.</p>
+      <p>{% t home.clique %}</p>
     </div>
     <div class="cards">
-      <a href="guaviraty" class="card-item">
-        <img src="/assets/img/oca_aldeia.jpg" class="item-img" alt="Oca" />
-        <span class="item-text">Guaviraty</span>
+      {% for aldeia in site.data.aldeias.aldeias %}
+      <a href={{aldeia.link}} class="card-item">
+        <img src={{aldeia.img}} class="item-img" alt={{aldeia.alt}} />
+        <span class="item-text">{{aldeia.name}}</span>
       </a>
-      <a href="tangara" class="card-item">
-        <img src="/assets/img/criancas.jpeg" class="item-img" alt="Oca" />
-        <span class="item-text">Tangará</span>
-      </a>
-      <a href="yyrexaka" class="card-item">
-        <img
-          src="assets/img/habitacao_yyrexaka.jpg"
-          class="item-img"
-          alt="Oca"
-        />
-        <span class="item-text">Yyrexakã</span>
-      </a>
+      {% endfor %}
     </div>
   </section>
 </main>
