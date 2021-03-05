@@ -21,10 +21,4 @@ navbar:
         link: /yyrexaka
 
   - name: Sobre Nós
-    dropdown: true
-    items:
-      - name: Rede Indígena
-        link: /sobre-rede-indigena.html
-
-      - name: O Tecs
-        link: /sobre-tecs.html
+    link: /

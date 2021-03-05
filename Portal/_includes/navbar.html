@@ -31,18 +31,10 @@
         <span><a href="{% t basepath %}{{ subitem.link }}" tabindex="0">{{ subitem.name }}</a></span>
         {% endfor %}
       </li>
-      {% elsif item.dropdown %}
-      <li class="nav-item dropdown">
-        <a class="dropbtn">{{ item.name }}</a>
-        <ul class="dropdown-content">
-          {% for subitem in item.items %}
-          <li><a href="{% t basepath %}{{ subitem.link }}">{{ subitem.name }}</a></li>
-          {% endfor %}
-        </ul>
-      </li>
+
       {% else %}
       <li class="nav-item">
-        <a href="{% t basepath %}/" tabindex="0">{{ item.name }}</a>
+        <a href="{% t basepath %}{{ item.link }}" tabindex="0">{{ item.name }}</a>
       </li>
       {% endif %} {% endfor %}
     </ul>
