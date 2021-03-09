@@ -48,10 +48,12 @@ body {
 .header-img-top {
   width: 100%;
   height: 60vh;
-  background-image: url("../assets/img/Imagem_casa_inicio_vermelha_desktop.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .banner {
@@ -144,20 +146,18 @@ body {
     img {
       width: 75px;
     }
-    p {
-      font-size: 2em;
-    }
+
   }
 
   .cards {
-    padding-top: 10%;
-    padding-bottom: 5%;
+    // padding-top: 48px;
+    padding-bottom: 32px;
   }
 
   .card-item {
     width: 85%;
     &:not(:first-child) {
-      margin-top: 15%;
+      margin-top: 48px;
     }
     .item-text {
       font-size: 1.8em;

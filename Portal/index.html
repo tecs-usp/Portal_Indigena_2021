@@ -5,14 +5,16 @@ maincss: "css/main.css"
 ---
 
 <main aria-label="Home main">
-  <div aria-label="Imagem casa de reza" class="header-img-top"></div>
+  <div aria-label="Foto da Home" class="header-img-top">
+    <img src="/assets/img/Imagem_casa_inicio_vermelha_desktop.jpg" alt="Imagem casa de Reza">
+  </div>
 
   <section class="banner" aria-label="Banner">
     <p>
       <span>{% t home.bem_vindo %}</span> <br />
       <span class="banner__text--orange">{% t home.portal %}</span>
     </p>
-    <img src="assets/img/logo.svg" alt="Logo Banner" />
+    <img src="assets/img/logo.svg" alt="Logo do Portal Indígena" />
   </section>
 
   <section class="bottom-section" aria-label="Aldeias">
@@ -23,10 +25,10 @@ maincss: "css/main.css"
       <p>{% t home.clique %}</p>
     </div>
     <div class="cards">
-      {% for aldeia in site.data.aldeias.aldeias %}
-      <a href={{aldeia.link}} class="card-item">
-        <img src={{aldeia.img}} class="item-img" alt={{aldeia.alt}} />
-        <span class="item-text">{{aldeia.name}}</span>
+      {% for aldeia in site.data.aldeias.lista %}
+      <a href='{{site.data.aldeias[aldeia].link}}' class="card-item">
+        <img src={{site.data.aldeias[aldeia].img}} class="item-img" alt='{{site.data.aldeias[aldeia].alt}}' />
+        <span class="item-text">{{ site.data.aldeias[aldeia].name }}</span>
       </a>
       {% endfor %}
     </div>

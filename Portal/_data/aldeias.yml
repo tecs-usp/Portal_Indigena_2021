@@ -1,15 +1,29 @@
-aldeias:
-  - name: Guaviraty
-    link: guaviraty
-    img: /assets/img/oca_aldeia.jpg
-    alt: Foto da Oca
+guaviraty:
+  name: Guaviraty
+  link: guaviraty
+  img: /assets/img/oca_aldeia.jpg
+  alt: Foto da Oca
+  localizacao: Localização - Guaviraty
+  contato: Contato - Guaviraty
 
-  - name: Tangará
-    link: tangara
-    img: /assets/img/criancas.jpeg
-    alt: 3 crianças debaixo da porta observando o exterior
+tangara:
+  name: Tangará
+  link: tangara
+  img: /assets/img/criancas.jpeg
+  alt: 3 crianças debaixo da porta observando o exterior
+  localizacao: Localização - Tangará
+  contato: Contato - Tangará
 
-  - name: Yyrexakã
-    link: yyrexaka
-    img: assets/img/habitacao_yyrexaka.jpg
-    alt: Casa feita de madeira
+
+yyrexaka:
+  name: Yyrexakã
+  link: yyrexaka
+  img: /assets/img/habitacao_yyrexaka.jpg
+  alt: Casa feita de madeira
+  localizacao: Localização - Yyrexakã
+  contato: Contato - Yyrexakã
+
+lista:
+  - guaviraty
+  - tangara
+  - yyrexaka

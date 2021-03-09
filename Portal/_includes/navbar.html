@@ -25,10 +25,10 @@
       alt="Menu Close"
     />
     <ul class="navbar-nav">
-      {% for item in site.data.navbar.navbar %} {% if item.inline %}
+      {% for item in site.data.navbar.navbar %} {% if item.name == "Aldeias" %}
       <li class="nav-item nav-item--flex">
-        {% for subitem in item.items %}
-        <span><a href="{% t basepath %}{{ subitem.link }}" tabindex="0">{{ subitem.name }}</a></span>
+        {% for aldeia in site.data.aldeias.lista %}
+        <span><a href="{% t basepath %}{{ site.data.aldeias[aldeia].link }}" tabindex="0">{{ site.data.aldeias[aldeia].name }}</a></span>
         {% endfor %}
       </li>
 

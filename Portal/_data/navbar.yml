@@ -2,23 +2,13 @@ navbar-mobile:
   - name: Portal Indígena
     dropdown: false
     ddd: true
-    link: /
+    link: 
 
 navbar:
   - name: Portal Indígena
-    link: /
+    link: 
 
   - name: Aldeias
-    inline: true
-    items:
-      - name: Guaviraty
-        link: /guaviraty
-
-      - name: Tangará
-        link: /tangara
-
-      - name: Yyrexakã
-        link: /yyrexaka
 
   - name: Sobre Nós
-    link: /
+    link: 
