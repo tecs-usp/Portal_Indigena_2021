@@ -14,16 +14,15 @@ tangara:
   localizacao: Localização - Tangará
   contato: Contato - Tangará
 
-
-yyrexaka:
-  name: Yyrexakã
-  link: yyrexaka
-  img: /assets/img/habitacao_yyrexaka.jpg
+yrexaka:
+  name: Yrexakã
+  link: yrexaka
+  img: /assets/img/habitacao_yrexaka.jpg
   alt: Casa feita de madeira
-  localizacao: Localização - Yyrexakã
-  contato: Contato - Yyrexakã
+  localizacao: Localização - Yrexakã
+  contato: Contato - Yrexakã
 
 lista:
   - guaviraty
   - tangara
-  - yyrexaka
+  - yrexaka

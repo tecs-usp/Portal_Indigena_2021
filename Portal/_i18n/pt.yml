@@ -1,30 +1,29 @@
 basepath: /
 
 home:
-  bem_vindo: Bem-vindo ao 
+  bem_vindo: Bem-vindo ao
   portal: Portal Indígena
-  informacoes: Aqui você encontra informações sobre aldeias e resistências indígenas do Brasil. 
+  informacoes: Aqui você encontra informações sobre aldeias e resistências indígenas do Brasil.
   clique: Clique na foto de uma aldeia para saber mais.
 
 footer:
   text: Todos os Direitos Reservados.
 
-page_404: 
+page_404:
   titulo: Página não encontrada
   texto: Desculpe, a página solicitada não foi encontrada.
   inicio: Voltar para o Início
-  
 
-aldeias: 
+aldeias:
   titulo:
     sobre: Sobre a aldeia
     historia: História
     localizacao: Localização
     contato: Contato
 
-
   guaviraty:
-    sobre: Sobre Guaviraty ptBR Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
+    sobre:
+      Sobre Guaviraty ptBR Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
       sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
       hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
       Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
@@ -42,9 +41,9 @@ aldeias:
       quam ut mi mattis luctus non vel nisi. Suspendisse at lacus tempus,
       efficitur ligula vel, tincidunt tortor. Nunc sit amet arcu ac augue
       vestibulum consectetur. Fusce in turpis vel metus tincidunt lobortis.
-      
 
-    historia: Historia Guaviraty ptBR Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
+    historia:
+      Historia Guaviraty ptBR Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
       interdum consectetur, arcu urna dignissim nunc, in auctor justo eros et
       ligula. Pellentesque placerat lorem eu mauris luctus, non pulvinar nisi
       sodales. Quisque ut aliquet ipsum. Aenean in elementum leo. Donec iaculis
@@ -60,9 +59,10 @@ aldeias:
       consequat eros metus in erat. Aliquam congue ultrices commodo. Maecenas et
       ipsum vel ipsum pharetra iaculis eu sed nisl. Sed malesuada rutrum augue,
       eget ultrices ligula interdum vel. Nulla facilisi.
-  
+
   tangara:
-    sobre: Sobre Tangará ptBR Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
+    sobre:
+      Sobre Tangará ptBR Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
       sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
       hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
       Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
@@ -81,7 +81,8 @@ aldeias:
       efficitur ligula vel, tincidunt tortor. Nunc sit amet arcu ac augue
       vestibulum consectetur. Fusce in turpis vel metus tincidunt lobortis.
 
-    historia: Historia Tangará ptBR Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
+    historia:
+      Historia Tangará ptBR Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
       interdum consectetur, arcu urna dignissim nunc, in auctor justo eros et
       ligula. Pellentesque placerat lorem eu mauris luctus, non pulvinar nisi
       sodales. Quisque ut aliquet ipsum. Aenean in elementum leo. Donec iaculis
@@ -98,8 +99,9 @@ aldeias:
       ipsum vel ipsum pharetra iaculis eu sed nisl. Sed malesuada rutrum augue,
       eget ultrices ligula interdum vel. Nulla facilisi.
 
-  yyrexaka:
-    sobre: Sobre Yyrexakã ptBR Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
+  yrexaka:
+    sobre:
+      Sobre Yyrexakã ptBR Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
       sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
       hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
       Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
@@ -118,8 +120,8 @@ aldeias:
       efficitur ligula vel, tincidunt tortor. Nunc sit amet arcu ac augue
       vestibulum consectetur. Fusce in turpis vel metus tincidunt lobortis.
 
-
-    historia: Historia Yyrexakã ptBR Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
+    historia:
+      Historia Yyrexakã ptBR Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
       interdum consectetur, arcu urna dignissim nunc, in auctor justo eros et
       ligula. Pellentesque placerat lorem eu mauris luctus, non pulvinar nisi
       sodales. Quisque ut aliquet ipsum. Aenean in elementum leo. Donec iaculis

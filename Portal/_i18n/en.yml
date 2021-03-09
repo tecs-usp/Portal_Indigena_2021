@@ -3,33 +3,32 @@ basepath: /en/
 home:
   bem_vindo: Welcome to
   portal: Portal Indígena
-  informacoes: Here you can find informations about villages and indigenous resistance at Brazil. 
+  informacoes: Here you can find informations about villages and indigenous resistance at Brazil.
   clique: Click in a picture to see more.
 
 footer:
   text: All Rights Reserved
 
-page_404: 
+page_404:
   titulo: Page not found
   texto: Sorry, this page isn't available.
   inicio: Back to Home
 
-
-aldeias: 
+aldeias:
   titulo:
     sobre: About the Village
     historia: History
     localizacao: Location
     contato: Contact
 
-
   guaviraty:
-    sobre: Sobre Guaviraty enUS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
+    sobre:
+      Sobre Guaviraty enUS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
       sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
       hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
       Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
       aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a
-      consequat erosyyrexaka
+      consequat
 
 
       Aliquam in egestas quam. In iaculis laoreet nibh, eu elementum metus mollis
@@ -39,7 +38,8 @@ aldeias:
       efficitur ligula vel, tincidunt tortor. Nunc sit amet arcu ac augue
       vestibulum consectetur. Fusce in turpis vel metus tincidunt lobortis.
 
-    historia: Historia Guaviraty enUS Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
+    historia:
+      Historia Guaviraty enUS Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
       interdum consectetur, arcu urna dignissim nunc, in auctor justo eros et
       ligula. Pellentesque placerat lorem eu mauris luctus, non pulvinar nisi
       sodales. Quisque ut aliquet ipsum. Aenean in elementum leo. Donec iaculis
@@ -55,9 +55,10 @@ aldeias:
       consequat eros metus in erat. Aliquam congue ultrices commodo. Maecenas et
       ipsum vel ipsum pharetra iaculis eu sed nisl. Sed malesuada rutrum augue,
       eget ultrices ligula interdum vel. Nulla facilisi.
-      
+
   tangara:
-    sobre: Sobre Tangará enUS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
+    sobre:
+      Sobre Tangará enUS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
       sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
       hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
       Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
@@ -76,7 +77,8 @@ aldeias:
       efficitur ligula vel, tincidunt tortor. Nunc sit amet arcu ac augue
       vestibulum consectetur. Fusce in turpis vel metus tincidunt lobortis.
 
-    historia: Historia Tangará enUS Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
+    historia:
+      Historia Tangará enUS Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
       interdum consectetur, arcu urna dignissim nunc, in auctor justo eros et
       ligula. Pellentesque placerat lorem eu mauris luctus, non pulvinar nisi
       sodales. Quisque ut aliquet ipsum. Aenean in elementum leo. Donec iaculis
@@ -93,8 +95,9 @@ aldeias:
       ipsum vel ipsum pharetra iaculis eu sed nisl. Sed malesuada rutrum augue,
       eget ultrices ligula interdum vel. Nulla facilisi.
 
-  yyrexaka:
-    sobre: Sobre Yyrexakã enUS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
+  yrexaka:
+    sobre:
+      Sobre Yyrexakã enUS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
       sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
       hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
       Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
@@ -113,7 +116,8 @@ aldeias:
       efficitur ligula vel, tincidunt tortor. Nunc sit amet arcu ac augue
       vestibulum consectetur. Fusce in turpis vel metus tincidunt lobortis.
 
-    historia: Historia Yyrexakã enUS Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
+    historia:
+      Historia Yyrexakã enUS Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
       interdum consectetur, arcu urna dignissim nunc, in auctor justo eros et
       ligula. Pellentesque placerat lorem eu mauris luctus, non pulvinar nisi
       sodales. Quisque ut aliquet ipsum. Aenean in elementum leo. Donec iaculis
@@ -129,4 +133,3 @@ aldeias:
       consequat eros metus in erat. Aliquam congue ultrices commodo. Maecenas et
       ipsum vel ipsum pharetra iaculis eu sed nisl. Sed malesuada rutrum augue,
       eget ultrices ligula interdum vel. Nulla facilisi.
-
