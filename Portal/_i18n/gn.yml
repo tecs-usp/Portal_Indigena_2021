@@ -1,4 +1,4 @@
-basepath: /gn
+basepath: /gn/
 
 home:
   bem_vindo: Bem-vindo ao 
@@ -9,11 +9,18 @@ home:
 footer:
   text: Todos os Direitos Reservados
 
+page_404: 
+  titulo: Página não encontrada
+  texto: Desculpe, a página solicitada não foi encontrada.
+  inicio: Voltar para o Início
+  
 aldeias: 
   titulo:
     sobre: Tekoa
     historia: História
     localizacao: Localização
+    contato: Contato
+
 
   guaviraty:
     sobre: Sobre Guaviraty gn Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed

@@ -1,4 +1,4 @@
-basepath: 
+basepath: /
 
 home:
   bem_vindo: Bem-vindo ao 
@@ -9,11 +9,18 @@ home:
 footer:
   text: Todos os Direitos Reservados.
 
+page_404: 
+  titulo: Página não encontrada
+  texto: Desculpe, a página solicitada não foi encontrada.
+  inicio: Voltar para o Início
+  
+
 aldeias: 
   titulo:
     sobre: Sobre a aldeia
     historia: História
     localizacao: Localização
+    contato: Contato
 
 
   guaviraty:
@@ -35,6 +42,7 @@ aldeias:
       quam ut mi mattis luctus non vel nisi. Suspendisse at lacus tempus,
       efficitur ligula vel, tincidunt tortor. Nunc sit amet arcu ac augue
       vestibulum consectetur. Fusce in turpis vel metus tincidunt lobortis.
+      
 
     historia: Historia Guaviraty ptBR Nulla eget leo eget dui tempus varius non non augue. Etiam tristique, sem et
       interdum consectetur, arcu urna dignissim nunc, in auctor justo eros et

@@ -1,4 +1,4 @@
-basepath: /en
+basepath: /en/
 
 home:
   bem_vindo: Welcome to
@@ -9,11 +9,19 @@ home:
 footer:
   text: All Rights Reserved
 
+page_404: 
+  titulo: Page not found
+  texto: Sorry, this page isn't available.
+  inicio: Back to Home
+
+
 aldeias: 
   titulo:
     sobre: About the Village
     historia: History
     localizacao: Location
+    contato: Contact
+
 
   guaviraty:
     sobre: Sobre Guaviraty enUS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
@@ -21,11 +29,7 @@ aldeias:
       hendrerit maximus, metus arcu mattis magna, eu iaculis ex odio ut tortor.
       Fusce turpis turpis, scelerisque vel nulla ut, semper congue ipsum. Vivamus
       aliquet bibendum ligula, eget efficitur ante dignissim vel. Maecenas a
-      consequat eros, id rutrum mi. Vestibulum cursus orci vitae bibendum
-      tristique. Suspendisse efficitur ultricies nulla, ut congue mauris tempus
-      nec. Duis ac fermentum mi. Vestibulum eget urna a diam vulputate tincidunt.
-      Aenean tempus elementum massa. Etiam id elit vehicula, congue risus ac,
-      pulvinar nulla.
+      consequat erosyyrexaka
 
 
       Aliquam in egestas quam. In iaculis laoreet nibh, eu elementum metus mollis
@@ -51,7 +55,7 @@ aldeias:
       consequat eros metus in erat. Aliquam congue ultrices commodo. Maecenas et
       ipsum vel ipsum pharetra iaculis eu sed nisl. Sed malesuada rutrum augue,
       eget ultrices ligula interdum vel. Nulla facilisi.
-  
+      
   tangara:
     sobre: Sobre Tangará enUS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id arcu sed
       sem consectetur aliquam mollis et dolor. Maecenas volutpat, urna ac
