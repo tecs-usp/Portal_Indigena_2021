@@ -1,0 +1,28 @@
+guaviraty:
+  name: Guaviraty
+  link: guaviraty
+  img: /assets/img/oca_aldeia.jpg
+  alt: Foto da Oca
+  localizacao: Localização - Guaviraty
+  contato: Contato - Guaviraty
+
+tangara:
+  name: Tangará
+  link: tangara
+  img: /assets/img/criancas.jpeg
+  alt: 3 crianças debaixo da porta observando o exterior
+  localizacao: Localização - Tangará
+  contato: Contato - Tangará
+
+yrexaka:
+  name: Yrexakã
+  link: yrexaka
+  img: /assets/img/habitacao_yrexaka.jpg
+  alt: Casa feita de madeira
+  localizacao: Localização - Yrexakã
+  contato: Contato - Yrexakã
+
+lista:
+  - guaviraty
+  - tangara
+  - yrexaka

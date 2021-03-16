@@ -5,41 +5,32 @@ maincss: "css/main.css"
 ---
 
 <main aria-label="Home main">
-  <div aria-label="Imagem casa de reza" class="header-img-top"></div>
+  <div aria-label="Foto da Home" class="header-img-top">
+    <img src="/assets/img/Imagem_casa_inicio_vermelha_desktop.jpg" alt="Imagem casa de Reza">
+  </div>
 
   <section class="banner" aria-label="Banner">
     <p>
-      <span>Bem-vindo ao</span> <br />
-      <span class="banner__text--orange">Portal Indígena</span>
+      <span>{% t home.bem_vindo %}</span> <br />
+      <span class="banner__text--orange">{% t home.portal %}</span>
     </p>
-    <img src="assets/img/logo.svg" alt="Logo Banner" />
+    <img src="assets/img/logo.svg" alt="Logo do Portal Indígena" />
   </section>
 
   <section class="bottom-section" aria-label="Aldeias">
     <div class="banner banner__section">
       <p>
-        Aqui você encontra informações sobre aldeias e resistências indígenas do
-        Brasil.
+        {% t home.informacoes %}
       </p>
-      <p>Clique na foto de uma aldeia para saber mais.</p>
+      <p>{% t home.clique %}</p>
     </div>
     <div class="cards">
-      <a href="aldeias/guaviraty.html" class="card-item">
-        <img src="/assets/img/oca_aldeia.jpg" class="item-img" alt="Oca" />
-        <span class="item-text">Guaviraty</span>
+      {% for aldeia in site.data.aldeias.lista %}
+      <a href='{{site.data.aldeias[aldeia].link}}' class="card-item">
+        <img src={{site.data.aldeias[aldeia].img}} class="item-img" alt='{{site.data.aldeias[aldeia].alt}}' />
+        <span class="item-text">{{ site.data.aldeias[aldeia].name }}</span>
       </a>
-      <a href="aldeias/tangara.html" class="card-item">
-        <img src="/assets/img/criancas.jpeg" class="item-img" alt="Oca" />
-        <span class="item-text">Tangará</span>
-      </a>
-      <a href="aldeias/yyrexaka.html" class="card-item">
-        <img
-          src="assets/img/habitacao_yyrexaka.jpg"
-          class="item-img"
-          alt="Oca"
-        />
-        <span class="item-text">Yyrexakã</span>
-      </a>
+      {% endfor %}
     </div>
   </section>
 </main>

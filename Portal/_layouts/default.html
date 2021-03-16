@@ -1,3 +1,6 @@
+---
+maincss: "../css/main.css"
+---
 <!DOCTYPE html>
 <html lang="pt">
   <head>
@@ -18,7 +21,7 @@
     {% include navbar.html %} {{ content }}
 
     <footer class="banner-footer" aria-label="Footer">
-      <span> Portal Indígena - Todos os direitos reservados. </span>
+      <span> Portal Indígena - {% t footer.texto %} </span>
     </footer>
     <script src="/assets/js/menu.js"></script>
   </body>

@@ -3,7 +3,7 @@
   src: url("../assets/fonts/Petrona-Regular.ttf");
 }
 
-$image-height: 80vh;
+$image-height: 88%;
 
 .aldeia-container {
   display: flex;
@@ -21,9 +21,9 @@ $image-height: 80vh;
       justify-content: center;
       align-items: center;
       width: 100%;
-      height: 88%;
+      height: $image-height;
       position: relative;
-      background-color: #35631C;
+      background-color: #35631c;
 
       &::after {
         background-image: url("../assets/img/caminho_casa_de_reza_blur.jpg");
@@ -48,15 +48,21 @@ $image-height: 80vh;
     }
     .titulo-aldeia {
       width: 100%;
-      height: 12%;
+      height: calc(100% - #{$image-height});
       text-align: center;
       font-size: 35px;
       background: #642f1e;
       color: #ffffff;
       margin: 0;
       padding: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-      h2 {
+      h1 {
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
         padding: 12px;
       }
     }
@@ -70,12 +76,15 @@ $image-height: 80vh;
 
   .conteudo-aldeia {
     max-width: 1162px;
+    margin: 64px 0;
 
     .texto {
       margin: 12px 64px;
       p {
         margin-top: 16px;
         text-align: justify;
+        white-space: pre-wrap;
+        line-height: 1.5;
       }
       h2 {
         text-align: center;
@@ -105,7 +114,6 @@ $image-height: 80vh;
   .menu-content {
     top: 0;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -116,15 +124,11 @@ $image-height: 80vh;
     display: block;
 
     .conteudo-aldeia {
+      margin-top: 40px;
       .texto {
         margin: 12px 32px;
         text-align: justify;
       }
-    }
-
-
-    .conteudo {
-      padding-top: 40px;
     }
 
     .intro-container {
@@ -133,7 +137,7 @@ $image-height: 80vh;
       .imagem-aldeia {
         margin-top: 0;
         height: unset;
-  
+
         img {
           width: 100% !important;
           margin: 72px 0 0 0;
@@ -146,11 +150,10 @@ $image-height: 80vh;
           display: none;
         }
       }
-  
+
       .titulo-aldeia {
         padding: 16px;
       }
-  
     }
   }
 }
