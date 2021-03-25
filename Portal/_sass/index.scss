@@ -105,14 +105,14 @@ body {
   margin: 80px 0;
 
   .card-item {
-    margin: 16px;
-    width: 375px;
+    margin: 32px;
+    width: 440px;
     text-decoration: none;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
     .item-img {
       width: 100%;
-      max-height: 250px;
+      max-height: 300px;
       object-fit: cover;
     }
 
@@ -144,7 +144,7 @@ body {
 
   .banner {
     img {
-      width: 75px;
+      width: 72px;
     }
 
   }
@@ -158,6 +158,10 @@ body {
     width: 85%;
     &:not(:first-child) {
       margin-top: 48px;
+    }
+
+    .item-img {
+      max-height: 240px;
     }
     .item-text {
       font-size: 1.8em;

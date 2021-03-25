@@ -85,7 +85,8 @@
   padding: 1.5em 1em;
 }
 
-.language-selector {
+.language-selector,
+.language-selector-mobile {
   position: relative;
 
   .display {
@@ -104,7 +105,7 @@
       font-size: 22px;
     }
 
-    .language_icon {
+    .language-icon {
       height: 26px;
       padding: 2px 8px;
       color: white;
@@ -127,15 +128,19 @@
     height: 0;
     overflow: hidden;
     transition: height 0.3s ease-in-out;
+    box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.3);
 
     a {
       cursor: pointer;
     }
   }
-  &:hover,
-  &:focus-within {
-    .options {
-      height: 160px;
+
+  @media only screen and (min-width: 768px) {
+    &:hover,
+    &:focus-within {
+      .options {
+        height: 144px;
+      }
     }
   }
 }
@@ -171,7 +176,7 @@
           font-size: 26px;
           color: #ffffff;
           margin: 4px 8px 8px 8px;
-          padding:  4px 8px 8px 8px;
+          padding: 4px 8px 8px 8px;
           font-weight: bold;
         }
 
@@ -180,12 +185,8 @@
         }
         &.nav-item--flex {
           flex-direction: column;
-
         }
       }
-      // &:last-child {
-      //   border-bottom: 1px solid #ffffff;
-      // }
     }
   }
 
@@ -196,9 +197,39 @@
     .options {
       height: auto;
       position: inherit;
+      box-shadow: unset;
 
       &:hover {
         height: auto;
+      }
+    }
+  }
+
+  .language-selector-mobile {
+    .display {
+      background-color: transparent;
+      padding: 0;
+      cursor: pointer;
+      
+      .language-icon {
+        padding: 0;
+        height: unset;
+      }
+    }
+    .options {
+      right: 0;
+      width: 200px;
+      box-shadow: unset;
+
+      a {
+        text-decoration: none;
+        text-align: center;
+        color: #ffffff;
+        outline: none;
+        padding: 12px;
+        border-radius: 8px;
+        transition: background-color 0.2s ease-in-out;
+        font-size: 24px;
       }
     }
   }
@@ -207,9 +238,15 @@
     background-color: rgba(101, 19, 19, 1);
     padding: 12px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
     .nav-item {
       text-align: left;
+    }
+
+    img {
+      width: 36px;
     }
   }
 

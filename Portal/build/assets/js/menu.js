@@ -22,4 +22,25 @@ function onResize() {
   }, 500);
 }
 
+function changeLang(lang) {
+  const regex = new RegExp(/(\/[a-z]n)/, 'i');
+  let path = window.location.pathname;
+  const match = regex.exec(path);
+  if (match) {
+    if (match[0] != lang) {
+      path = path.replace(regex, `${lang}`);
+      console.log("o match foi esse = ", path.match(regex))
+      console.log("ir paraaa ", path);
+    }
+  }
+  else {
+    if (lang) {
+      path = lang + path;
+    console.log("ir paraafsfea ", path);
+    }
+  }
+  window.location.assign(path);
+}
+
+
 window.addEventListener("resize", onResize);

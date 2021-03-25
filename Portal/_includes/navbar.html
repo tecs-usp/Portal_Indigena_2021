@@ -6,16 +6,16 @@
       alt="Menu Open"
     />
     <ul class="navbar-nav">
-      {% for item in site.data.navbar.navbar-mobile %}
       <li class="nav-item" >
-        <span><a href="{{% t basepath %}}/" tabindex="0">{{ item.name }}</a></span>
+        <span><a href="{{% t basepath %}}/" tabindex="0">Portal Indígena</a></span>
       </li>
-      {% endfor %}
+
     </ul>
+    {% include languageSelectorMobile.html %}
   </nav>
 
   <nav class="navbar" aria-label="navbar">
-    <a href="{{% t basepath %}}/" class="navbar-brand" tabindex="-1">
+    <a href="{% t basepath %}" class="navbar-brand" tabindex="-1">
       <img src="/assets/img/logo.svg" alt="logo" />
     </a>
     <img
@@ -25,18 +25,19 @@
       alt="Menu Close"
     />
     <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="{% t basepath %}" tabindex="0">Portal Indígena</a>
+      </li>
       {% for item in site.data.navbar.navbar %} {% if item.name == "Aldeias" %}
       <li class="nav-item nav-item--flex">
         {% for aldeia in site.data.aldeias.lista %}
-        <span><a href="{% t basepath %}{{ site.data.aldeias[aldeia].link }}" tabindex="0">{{ site.data.aldeias[aldeia].name }}</a></span>
+        <a href="{% t basepath %}{{ site.data.aldeias[aldeia].link }}" tabindex="0">{{ site.data.aldeias[aldeia].name }}</a>
         {% endfor %}
       </li>
-
-      {% else %}
-      <li class="nav-item">
-        <a href="{% t basepath %}{{ item.link }}" tabindex="0">{{ item.name }}</a>
-      </li>
       {% endif %} {% endfor %}
+      <li class="nav-item  nav-item--flex">
+        {% include languageSelector.html %}
+      </li>
     </ul>
   </nav>
 </header>

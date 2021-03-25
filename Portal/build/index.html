@@ -13,23 +13,21 @@
   </head>
 
   <body>
-    <header>
-  <nav class="navbar-mobile">
+    <header aria-label="Header">
+  <nav class="navbar-mobile" aria-label="navbar-mobile">
     <img
       onclick="openMenu()"
       src="/assets/img/menu_icon_open.svg"
       alt="Menu Open"
     />
     <ul class="navbar-nav">
-      
-      <li class="nav-item">
+      <li class="nav-item" >
         <span><a href="/" tabindex="0">Portal Indígena</a></span>
       </li>
-      
     </ul>
   </nav>
 
-  <nav class="navbar">
+  <nav class="navbar" aria-label="navbar">
     <a href="/" class="navbar-brand" tabindex="-1">
       <img src="/assets/img/logo.svg" alt="logo" />
     </a>
@@ -40,69 +38,110 @@
       alt="Menu Close"
     />
     <ul class="navbar-nav">
-       
       <li class="nav-item">
         <a href="/" tabindex="0">Portal Indígena</a>
       </li>
+       
+
         
       <li class="nav-item nav-item--flex">
+        <h3 class="navbar-mobile-section">Aldeias</h3>
         
-        <span><a href="/aldeias/guaviraty.html" tabindex="0">Guaviraty</a></span>
+        <a href="/guaviraty" tabindex="0">Guaviraty</a>
         
-        <span><a href="/aldeias/tangara.html" tabindex="0">Tangará</a></span>
+        <a href="/tangara" tabindex="0">Tangará</a>
         
-        <span><a href="/aldeias/yyrexaka.html" tabindex="0">Yyrexakã</a></span>
+        <a href="/yrexaka" tabindex="0">Yrexakã</a>
         
       </li>
-        
-      <li class="nav-item dropdown">
-        <a class="dropbtn">Sobre Nós</a>
-        <ul class="dropdown-content">
-          
-          <li><a href="/sobre-rede-indigena.html">Rede Indígena</a></li>
-          
-          <li><a href="/sobre-tecs.html">O Tecs</a></li>
-          
-        </ul>
-      </li>
+
        
+      <li class="nav-item  nav-item--flex">
+        <h3 class="navbar-mobile-section">Idiomas</h3>
+        <div class="language-selector">
+  <div class="display">
+    <img src="../assets/img/globe_krita2.png" class="language_icon"></img>
+    <p>Português</p>
+    <div class="arrow-down">⏷</div>
+  </div>
+  <div class="options">
+    <a tabindex="0" onclick="changeLang('')">Português</a>
+    <a tabindex="0" onclick="changeLang('/gn')">Guarani</a>
+    <a tabindex="0" onclick="changeLang('/en')">English</a>
+  </div>
+
+</div>
+
+<!-- <script>
+  function changeLang(lang) {
+    const regex = new RegExp(/(\/[a-z]n)/, 'i');
+    let path = window.location.pathname;
+    const match = regex.exec(path);
+    if (match) {
+      if (match[0] != lang) {
+        path = path.replace(regex, `${lang}`);
+        console.log("o match foi esse = ", path.match(regex))
+        console.log("ir paraaa ", path);
+      }
+    }
+    else {
+      if (lang) {
+        path = lang + path;
+      console.log("ir paraafsfea ", path);
+      }
+    }
+    window.location.assign(path);
+  }
+
+</script> -->
+      </li>
     </ul>
   </nav>
 </header>
- <div aria-label="Imagem casa de reza" class="header-img-top"></div>
-
-<div class="banner">
-  <p>
-    <span>Bem-vindo ao</span> <br />
-    <span class="banner__text--orange">Portal Indígena</span>
-  </p>
-  <img src="assets/img/logo.svg" alt="Logo Banner" />
-</div>
-
-<section class="bottom-section">
-  <div class="banner banner__section">
-    <p>Aqui você encontra informações sobre aldeias e resistências indígenas do Brasil.</p>
-    <p>Clique na foto de uma aldeia para saber mais.</p>
+ <main aria-label="Home main">
+  <div aria-label="Foto da Home" class="header-img-top">
+    <img src="/assets/img/Imagem_casa_inicio_vermelha_desktop.jpg" alt="Imagem casa de Reza">
   </div>
-  <div class="cards">
-    <a href="aldeias/guaviraty.html" class="card-item">
-      <img src="assets/img/habitacao_yyrexaka.jpg" class="item-img" alt="Oca" />
-      <span class="item-text">Guaviraty</span>
-    </a>
-    <a href="aldeias/tangara.html" class="card-item">
-      <img src="assets/img/habitacao_yyrexaka.jpg" class="item-img" alt="Oca" />
-      <span class="item-text">Tangará</span>
-    </a>
-    <a href="aldeias/yyrexaka.html" class="card-item">
-      <img src="assets/img/habitacao_yyrexaka.jpg" class="item-img" alt="Oca" />
-      <span class="item-text">Yyrexakã</span>
-    </a>
-  </div>
-</section>
+
+  <section class="banner" aria-label="Banner">
+    <p>
+      <span>Bem-vindo ao</span> <br />
+      <span class="banner__text--orange">Portal Indígena</span>
+    </p>
+    <img src="assets/img/logo.svg" alt="Logo do Portal Indígena" />
+  </section>
+
+  <section class="bottom-section" aria-label="Aldeias">
+    <div class="banner banner__section">
+      <p>
+        Aqui você encontra informações sobre aldeias e resistências indígenas do Brasil.
+      </p>
+      <p>Clique na foto de uma aldeia para saber mais.</p>
+    </div>
+    <div class="cards">
+      
+      <a href='guaviraty' class="card-item">
+        <img src=/assets/img/oca_aldeia.jpg class="item-img" alt='Foto da Oca' />
+        <span class="item-text">Guaviraty</span>
+      </a>
+      
+      <a href='tangara' class="card-item">
+        <img src=/assets/img/criancas.jpeg class="item-img" alt='3 crianças debaixo da porta observando o exterior' />
+        <span class="item-text">Tangará</span>
+      </a>
+      
+      <a href='yrexaka' class="card-item">
+        <img src=/assets/img/habitacao_yrexaka.jpg class="item-img" alt='Casa feita de madeira' />
+        <span class="item-text">Yrexakã</span>
+      </a>
+      
+    </div>
+  </section>
+</main>
 
 
-    <footer class="banner-footer">
-      <span> Portal Indígena - Todos os direitos reservados. </span>
+    <footer class="banner-footer" aria-label="Footer">
+      <span> Portal Indígena - Todos os Direitos Reservados. </span>
     </footer>
     <script src="/assets/js/menu.js"></script>
   </body>
