@@ -152,21 +152,24 @@ body {
   .cards {
     // padding-top: 48px;
     padding-bottom: 32px;
+    .card-item {
+      width: 100%;
+      margin: 32px 24px;
+      // // width: 85%;
+      // &:not(:first-child) {
+      //   margin-top: 48px;
+      // }
+  
+      .item-img {
+        max-height: 240px;
+      }
+      .item-text {
+        font-size: 1.8em;
+      }
+    }
   }
 
-  .card-item {
-    width: 85%;
-    &:not(:first-child) {
-      margin-top: 48px;
-    }
 
-    .item-img {
-      max-height: 240px;
-    }
-    .item-text {
-      font-size: 1.8em;
-    }
-  }
 
   .bottom-section {
     background-image: url("../assets/img/aldeia_panoramica_mobile.jpeg");

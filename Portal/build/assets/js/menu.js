@@ -1,11 +1,13 @@
 function openMenu() {
   var navbar = document.getElementsByClassName("navbar")[0];
   navbar.style.left = "0";
+  window.navigator.vibrate(50);
 }
 
 function closeMenu() {
   var navbar = document.getElementsByClassName("navbar")[0];
   navbar.style.left = "-80%";
+  window.navigator.vibrate(50);
 }
 
 function onResize() {
@@ -42,5 +44,20 @@ function changeLang(lang) {
   window.location.assign(path);
 }
 
+function closeLanguage() {
+  var language = document.getElementById("language-selector-options");
+  language.style.height = "0";
+  language.style.boxShadow = "unset"
+  window.navigator.vibrate(50);
+}
 
+function openLanguage() {
+  var language = document.getElementById("language-selector-options");
+  if (language.style.height == "0px" || language.style.height == 0) {
+    language.style.height = "150px";
+    language.style.boxShadow = "0 0 8px 2px rgba(0, 0, 0, 0.3)";
+    window.navigator.vibrate(50);
+  }
+  else closeLanguage();
+}
 window.addEventListener("resize", onResize);
