@@ -111,8 +111,8 @@
       color: white;
     }
 
-    .arrow-down {
-      margin-top: 4px;
+    .arrow-icon {
+      height: 12px;
       padding: 2px 8px;
     }
   }
@@ -161,9 +161,15 @@
     transition: left 1s;
     background-color: rgba(101, 19, 19, 1);
     box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3);
+
+    .navbar-brand {
+      img {
+        height: 88px;
+      }
+    }
     .navbar-nav {
       margin-left: 0px;
-      margin-top: 32px;
+      margin-top: 16px;
       display: block;
 
       .nav-item {
@@ -209,14 +215,17 @@
       position: absolute;
       right: 12px;
     .display {
-      // background-color: transparent;
-      padding: 6px 8px;
+      padding: 6px;
       width: unset;
       cursor: pointer;
       
       .language-icon {
-        height: 24px;
+        height: 20px;
         padding: 0;
+      }
+
+      .arrow-icon {
+        height: 10px;
       }
     }
     .options {
