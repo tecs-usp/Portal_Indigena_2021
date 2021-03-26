@@ -31,7 +31,10 @@ home:
       Aguyjevete!
 
 
-    texto: O projeto Portal Indígena nasceu da parceria entre a Rede Indígena (Rede de Atenção à Pessoa Indígena - IPUSP) e o Tecs (Grupo de comput {ação social} da USP)  em 2019.  
+    texto1: O projeto Portal Indígena nasceu da parceria entre a 
+    texto2: e o 
+    texto3: em 2019.  
+    # texto4: Articulando constantemente com as vozes da aldeia, buscamos construir um  
 
 footer:
   texto: Todos os Direitos Reservados.
