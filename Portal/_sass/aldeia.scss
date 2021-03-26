@@ -58,12 +58,16 @@ $image-height: 88%;
       display: flex;
       justify-content: center;
       align-items: center;
+      // background-image: url("../assets/img/pintura3.png");
 
       h1 {
         font-size: 32px;
         font-weight: bold;
         letter-spacing: 0.5px;
         padding: 12px;
+        // background-color: #642f1e;
+        // opacity: 0.8;
+
       }
     }
   }

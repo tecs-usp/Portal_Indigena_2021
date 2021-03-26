@@ -130,6 +130,46 @@ body {
   }
 }
 
+.about-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+  .about {
+    max-width: 1162px;
+    width: 100%;
+    margin: 80px;
+    padding: 32px;
+    background-color: rgba(white, 0.7);
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+
+    h2 {
+      font-size: 32px;
+      margin: 40px 0 64px 0;
+    }
+
+    .poema, .texto {
+      white-space: pre-wrap;
+      font-size: 30px;
+      line-height: 180%;
+    }
+    
+
+    .texto {
+      font-size: 26px;
+    }
+
+    .pintura {
+      height: 20px;
+      margin: 56px 0;
+
+    }
+  }
+}
+
 @media only screen and (max-width: 768px) {
   body {
     font-size: 0.875em;
@@ -157,6 +197,26 @@ body {
     }
   }
 
+  .about-container {
+    .about {
+      margin: 24px;
+      padding: 40px 16px;
+      background-color: rgba(white, 0.8);
+
+      h2 {
+        font-size: 28px;
+        margin: 16px 0 40px 0;
+      }
+
+      .poema {
+        font-size: 24px;
+      }
+
+      .texto {
+        font-size: 22px;
+      }
+    }
+  }
 
 
   .bottom-section {
