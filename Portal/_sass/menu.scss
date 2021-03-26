@@ -263,6 +263,10 @@
     height: 100%;
     .nav-item {
       text-align: left;
+
+      &:first-child {
+        margin-left: unset;
+      }
     }
 
     .open-menu {
