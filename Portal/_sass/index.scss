@@ -16,7 +16,6 @@ body {
   font-size: 1em;
 
   header {
-    // position: relative;
     height: 72px;
     z-index: 4;
     background-color: rgba(101, 19, 19, 1);
@@ -41,9 +40,7 @@ body {
   }
 }
 
-.navbar {
-  background-color: rgba(101, 19, 19, 0.8);
-}
+
 
 .header-img-top {
   width: 100%;
@@ -105,7 +102,7 @@ body {
   margin: 80px 0;
 
   .card-item {
-    margin: 32px;
+    margin: 24px;
     width: 440px;
     text-decoration: none;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -138,10 +135,6 @@ body {
     font-size: 0.875em;
   }
 
-  .navbar {
-    background-color: rgba(101, 19, 19, 1);
-  }
-
   .banner {
     img {
       width: 72px;
@@ -150,15 +143,10 @@ body {
   }
 
   .cards {
-    // padding-top: 48px;
     padding-bottom: 32px;
     .card-item {
       width: 100%;
       margin: 32px 24px;
-      // // width: 85%;
-      // &:not(:first-child) {
-      //   margin-top: 48px;
-      // }
   
       .item-img {
         max-height: 240px;
