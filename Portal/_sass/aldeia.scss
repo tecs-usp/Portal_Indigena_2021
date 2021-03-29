@@ -58,16 +58,14 @@ $image-height: 88%;
       display: flex;
       justify-content: center;
       align-items: center;
-      // background-image: url("../assets/img/pintura3.png");
+
 
       h1 {
         font-size: 32px;
         font-weight: bold;
         letter-spacing: 0.5px;
         padding: 12px;
-        // background-color: #642f1e;
-        // opacity: 0.8;
-
+        width: 100%;
       }
     }
   }
@@ -81,7 +79,27 @@ $image-height: 88%;
   .conteudo-aldeia {
     max-width: 1162px;
     margin: 64px 0;
+    position: relative;
 
+    .flecha {
+      position: absolute;
+      top: -8;
+      left: 88px;
+      transition: filter 0.3s ease-in-out, left 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+      img {
+        width: 82px;
+      }
+      
+      
+      @media only screen and (min-width: 768px) {
+        &:hover {
+        transform: scale(1.02);
+        filter: invert(13%) sepia(26%) saturate(5687%) hue-rotate(343deg) brightness(90%) contrast(98%);  
+        left: 72px;
+      }
+    }
+    }
     .texto {
       margin: 12px 64px;
       p {
@@ -129,6 +147,17 @@ $image-height: 88%;
 
     .conteudo-aldeia {
       margin-top: 40px;
+
+      .flecha {
+        left: 32px;
+        top: 0;
+        img {
+          width: 64px;
+        };
+
+        &:hover {
+        }
+      }
       .texto {
         margin: 12px 32px;
         text-align: justify;
