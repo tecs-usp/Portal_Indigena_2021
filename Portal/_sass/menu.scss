@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
     img {
       height: 64px;
     }
@@ -81,7 +82,7 @@
   display: none;
 }
 // footer
-.banner-footer {
+.footer-container {
   display: flex;
   justify-content: flex-end;
   background-color: rgba(88, 17, 17, 1);
