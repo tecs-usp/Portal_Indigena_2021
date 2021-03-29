@@ -88,15 +88,15 @@ $image-height: 88%;
       transition: filter 0.3s ease-in-out, left 0.3s ease-in-out, transform 0.3s ease-in-out;
 
       img {
-        width: 82px;
+        width: 72px;
       }
       
       
       @media only screen and (min-width: 768px) {
         &:hover {
-        transform: scale(1.02);
+        transform: translate(-12px, 0) scale(1.02);
         filter: invert(13%) sepia(26%) saturate(5687%) hue-rotate(343deg) brightness(90%) contrast(98%);  
-        left: 72px;
+        // left: 72px;
       }
     }
     }
@@ -110,7 +110,7 @@ $image-height: 88%;
       }
       h2 {
         text-align: center;
-        padding-top: 48px;
+        padding-top: 60px;
       }
     }
 
@@ -154,9 +154,6 @@ $image-height: 88%;
         img {
           width: 64px;
         };
-
-        &:hover {
-        }
       }
       .texto {
         margin: 12px 32px;

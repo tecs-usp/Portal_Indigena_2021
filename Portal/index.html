@@ -42,9 +42,21 @@ maincss: "css/main.css"
         <h2>{% t home.sobre.titulo %}</h2>
         <p class="poema">{% t home.sobre.poema %}</p>
         <img class="pintura" src="assets/img/pintura3.png" />
-        <p class="texto">{% t home.sobre.texto1 %} <a href="https://redeindigena.ip.usp.br/" target="blank">Rede Indígena (Rede de Atenção à Pessoa Indígena - IPUSP)</a> {% t home.sobre.texto2 %} <a href="https://tecs.ime.usp.br/" target="blank">Tecs (Grupo de comput {ação social} da USP)</a> {% t home.sobre.texto3 %}
-          </p>
+        <p class="texto">
+          {% t home.sobre.texto1 %}
+          <a href="https://redeindigena.ip.usp.br/" target="blank"
+            >Rede Indígena (Rede de Atenção à Pessoa Indígena - IPUSP)</a
+          >
+          {% t home.sobre.texto2 %}
+          <a href="https://tecs.ime.usp.br/" target="blank"
+            >Tecs (Grupo de comput {ação social} da USP)</a
+          >
+          {% t home.sobre.texto3 %}
+        </p>
+
       </div>
     </div>
+    {% include goUp.html %}
+
   </section>
 </main>

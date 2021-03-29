@@ -89,6 +89,7 @@
   color: #ffffff;
   font-family: "Petrona Regular";
   padding: 1.5em 1em;
+  position: relative;
 }
 
 .language-selector,
@@ -150,6 +151,38 @@
     }
   }
 }
+
+.go-up-container {
+  width: 100%;
+  margin: 64px 0;
+  display: flex;
+  justify-content: center;
+
+
+  button {
+    background: transparent;
+    border: 0;
+
+  }
+  .flecha {
+    cursor: pointer;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    img {
+    }
+
+    @media only screen and (min-width: 768px) {
+      &:hover {
+        transform: rotate(90deg) translate(-12px,) scale(1.05);
+        filter: invert(13%) sepia(26%) saturate(5687%) hue-rotate(343deg) brightness(90%) contrast(98%);  
+
+      }
+    }
+  }
+
+
+}
+
 @media only screen and (max-width: 768px) {
   header {
     position: fixed;
@@ -220,13 +253,13 @@
   }
 
   .language-selector-mobile {
-      position: absolute;
-      right: 12px;
+    position: absolute;
+    right: 12px;
     .display {
       padding: 6px;
       width: unset;
       cursor: pointer;
-      
+
       .language-icon {
         height: 20px;
         padding: 0;
