@@ -168,14 +168,11 @@
     cursor: pointer;
     transform: rotate(90deg);
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-    img {
-    }
 
     @media only screen and (min-width: 768px) {
       &:hover {
         transform: rotate(90deg) translate(-12px,) scale(1.05);
         filter: invert(13%) sepia(26%) saturate(5687%) hue-rotate(343deg) brightness(90%) contrast(98%);  
-
       }
     }
   }

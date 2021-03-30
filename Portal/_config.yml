@@ -3,5 +3,4 @@ collections:
     output: true
 plugins:
   - jekyll-multiple-languages-plugin
-# languages: ["pt", "en", "gn"]
-languages: ["pt"]
+languages: ["pt", "en", "gn"]
