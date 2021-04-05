@@ -1,5 +1,7 @@
 basepath: /en/
 
+lingua: English
+
 home:
   bem_vindo: Welcome to
   portal: Portal Indígena
