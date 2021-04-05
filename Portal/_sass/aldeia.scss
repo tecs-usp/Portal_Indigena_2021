@@ -41,6 +41,7 @@ $image-height: 88%;
 
       img {
         max-height: 90%;
+        max-width: 90%;
         object-fit: contain;
         z-index: 2;
         box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.3);
@@ -104,7 +105,7 @@ $image-height: 88%;
     .modal {
       width: 100%;
       height: calc(100vh - 72px);
-      background-color: rgba(0, 0, 0, 0.8);
+      background-color: rgba(0, 0, 0, 0.85);
       position: fixed;
       top: 72px;
       left: 0;
@@ -115,6 +116,7 @@ $image-height: 88%;
 
       #modal-img {
         height: 80vh;
+        max-width: 86vw;
         object-fit: contain;
         transform: scale(0);
         transition: all linear 0.3s;
@@ -195,10 +197,12 @@ $image-height: 88%;
       .card-img {
         width: 224px;
         height: 224px;
+        max-width: 464px;
         overflow: hidden;
         margin: 24px;
         border-radius: 8px;
         box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.3);
+        flex: 1 0 21%;
         .small-img {
           height: 100%;
           width: 100%;
@@ -207,7 +211,7 @@ $image-height: 88%;
           transition: all linear 0.4s;
         }
         .small-img:hover {
-          filter: grayscale(100%);
+          filter: grayscale(25%);
           transform: scale(1.1);
         }
       }
@@ -244,13 +248,15 @@ $image-height: 88%;
   .aldeia-container {
     display: block;
 
+
     .conteudo-aldeia {
       margin-top: 40px;
 
       .modal {
         #modal-img {
           height: unset;
-          width: 90%;
+          width: 94%;
+          max-width: unset;
         }
       }
 
@@ -270,6 +276,7 @@ $image-height: 88%;
         .cards-container {
           .card-img {
             width: 100%;
+            flex: 1 0 100%;
           }
         }
       }
@@ -281,9 +288,11 @@ $image-height: 88%;
       .imagem-aldeia {
         margin-top: 0;
         height: unset;
+        height: 94%;
 
         img {
           width: 100% !important;
+          max-width: 100%;
           margin: 72px 0 0 0;
           max-height: unset;
           padding: unset;
@@ -297,6 +306,7 @@ $image-height: 88%;
 
       .titulo-aldeia {
         padding: 16px;
+        height: 80px;
       }
     }
   }

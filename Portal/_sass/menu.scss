@@ -84,12 +84,50 @@
 // footer
 .footer-container {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(88, 17, 17, 1);
   color: #ffffff;
   font-family: "Petrona Regular";
-  padding: 1.5em 1em;
   position: relative;
+
+  .footer-menu {
+    width: 100%;
+    padding: 8px 16px 16px 16px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .footer-section {
+      margin: 16px 32px;
+      text-align: center;
+      min-width: 142px;
+      h3 {
+        font-weight: bold;
+      }
+      a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        cursor: pointer;
+        line-height: 150%;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .footer-copyright {
+    padding: 24px;
+    margin-top: 16px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    background-color: #65131366;
+  }
 }
 
 .language-selector,
@@ -158,11 +196,9 @@
   display: flex;
   justify-content: center;
 
-
   button {
     background: transparent;
     border: 0;
-
   }
   .flecha {
     cursor: pointer;
@@ -171,13 +207,12 @@
 
     @media only screen and (min-width: 768px) {
       &:hover {
-        transform: rotate(90deg) translate(-12px,) scale(1.05);
-        filter: invert(13%) sepia(26%) saturate(5687%) hue-rotate(343deg) brightness(90%) contrast(98%);  
+        transform: rotate(90deg) translate(-12px) scale(1.05);
+        filter: invert(13%) sepia(26%) saturate(5687%) hue-rotate(343deg)
+          brightness(90%) contrast(98%);
       }
     }
   }
-
-
 }
 
 .language-selector,
@@ -375,6 +410,7 @@
     width: 30px;
   }
 }
+
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   .navbar {

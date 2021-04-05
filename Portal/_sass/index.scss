@@ -14,6 +14,7 @@
 body {
   font-family: "Petrona Regular";
   font-size: 1em;
+  background: rgba(101, 19, 19, 0.01);
 
   header {
     height: 72px;
@@ -76,7 +77,11 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding-bottom: 5%;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .flecha {
     filter: invert(1);
@@ -96,6 +101,7 @@ body {
 
 .cards {
   width: 100%;
+  max-width: 1162px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -103,8 +109,8 @@ body {
   margin: 80px 0;
 
   .card-item {
-    margin: 24px;
-    width: 440px;
+    margin: 32px;
+    width: 480px;
     text-decoration: none;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 

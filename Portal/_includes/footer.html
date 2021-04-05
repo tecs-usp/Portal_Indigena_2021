@@ -1,3 +1,25 @@
 <footer class="footer-container" aria-label="Footer">
-  <span> Portal Indígena - {% t footer.texto %} </span>
+  <div class="footer-menu">
+    <div class="footer-section">
+      <h3>{% t footer.geral %}</h3>
+      <a href="{% t basepath %}">{% t footer.inicio %}</a>
+      <a href="{% t basepath %}#sobre">{% t home.sobre.titulo %}</a>
+    </div>
+    <div class="footer-section">
+      <h3>{% t footer.aldeias %}</h3>
+      {% for aldeia in site.data.aldeias.lista %}
+      <a href="{% t basepath %}{{ site.data.aldeias[aldeia].link }}" tabindex="0">{{ site.data.aldeias[aldeia].name }}</a>
+      {% endfor %}
+    </div>
+    <div class="footer-section">
+      <h3>{% t footer.idiomas %}</h3>
+      <a tabindex="0" onclick="changeLang('')">Português</a>
+      <a tabindex="0" onclick="changeLang('/gn')">Guarani Mbyá</a>
+      <a tabindex="0" onclick="changeLang('/en')">English</a>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <span> Portal Indígena - {% t footer.texto %} </span>
+  </div>
+
 </footer>

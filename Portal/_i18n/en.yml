@@ -7,9 +7,15 @@ home:
   portal: Portal Indígena
   informacoes: Here you can find informations about villages and indigenous resistance at Brazil.
   clique: Click in a picture to see more.
+  sobre: 
+    titulo: About this Project
 
 footer:
   texto: All Rights Reserved
+  geral: General
+  inicio: Home
+  aldeias: Villages
+  idiomas: Languages
 
 page_404:
   titulo: Page not found

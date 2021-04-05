@@ -38,6 +38,10 @@ home:
 
 footer:
   texto: Todos os Direitos Reservados.
+  geral: Geral
+  inicio: Início
+  aldeias: Aldeias
+  idiomas: Idiomas
 
 page_404:
   titulo: Página não encontrada

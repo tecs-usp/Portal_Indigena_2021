@@ -7,8 +7,8 @@ guaviraty:
   localizacao: Localização - Guaviraty
   contato: Contato - Guaviraty
   fotos:
-    - /assets/img/foto_em_grupo_aldeia.jpg
     - /assets/img/oca_aldeia.jpg
+    - /assets/img/foto_em_grupo_aldeia.jpg
     - /assets/img/Rede_em_evento.jpeg
 
 tangara:
@@ -21,7 +21,7 @@ tangara:
   contato: Contato - Tangará
   fotos:
     - /assets/img/criancas.jpeg
-    - /assets/img/oca_aldeia.jpg
+    - /assets/img/Imagem_casa_inicio_vermelha.jpg
     - /assets/img/Rede_em_evento.jpeg
 
 
@@ -35,8 +35,7 @@ yrexaka:
   contato: Contato - Yrexakã
   fotos:
     - /assets/img/habitacao_yrexaka.jpg
-    - /assets/img/oca_aldeia.jpg
-    - /assets/img/Rede_em_evento.jpeg
+    - /assets/img/imagem_fundo_blur.jpeg
 
 
 lista:
