@@ -6,6 +6,10 @@ guaviraty:
   alt: Foto da Oca
   localizacao: Localização - Guaviraty
   contato: Contato - Guaviraty
+  fotos:
+    - /assets/img/foto_em_grupo_aldeia.jpg
+    - /assets/img/oca_aldeia.jpg
+    - /assets/img/Rede_em_evento.jpeg
 
 tangara:
   name: Tangará
@@ -15,6 +19,11 @@ tangara:
   alt: 3 crianças debaixo da porta observando o exterior
   localizacao: Localização - Tangará
   contato: Contato - Tangará
+  fotos:
+    - /assets/img/criancas.jpeg
+    - /assets/img/oca_aldeia.jpg
+    - /assets/img/Rede_em_evento.jpeg
+
 
 yrexaka:
   name: Yrexakã
@@ -24,6 +33,11 @@ yrexaka:
   alt: Casa feita de madeira
   localizacao: Localização - Yrexakã
   contato: Contato - Yrexakã
+  fotos:
+    - /assets/img/habitacao_yrexaka.jpg
+    - /assets/img/oca_aldeia.jpg
+    - /assets/img/Rede_em_evento.jpeg
+
 
 lista:
   - guaviraty

@@ -59,7 +59,6 @@ $image-height: 88%;
       justify-content: center;
       align-items: center;
 
-
       h1 {
         font-size: 32px;
         font-weight: bold;
@@ -85,51 +84,151 @@ $image-height: 88%;
       position: absolute;
       top: -8;
       left: 88px;
-      transition: filter 0.3s ease-in-out, left 0.3s ease-in-out, transform 0.3s ease-in-out;
+      transition: filter 0.3s ease-in-out, left 0.3s ease-in-out,
+        transform 0.3s ease-in-out;
 
       img {
         width: 72px;
       }
-      
-      
+
       @media only screen and (min-width: 768px) {
         &:hover {
-        transform: translate(-12px, 0) scale(1.02);
-        filter: invert(13%) sepia(26%) saturate(5687%) hue-rotate(343deg) brightness(90%) contrast(98%);  
-        // left: 72px;
-      }
-    }
-    }
-    .texto {
-      margin: 12px 64px;
-      p {
-        margin-top: 16px;
-        text-align: justify;
-        white-space: pre-wrap;
-        line-height: 1.5;
-      }
-      h2 {
-        text-align: center;
-        padding-top: 60px;
+          transform: translate(-12px, 0) scale(1.02);
+          filter: invert(13%) sepia(26%) saturate(5687%) hue-rotate(343deg)
+            brightness(90%) contrast(98%);
+          // left: 72px;
+        }
       }
     }
 
-    .localizacao {
-      margin-top: 64px;
-      p {
-        margin: 12px 0;
-        text-align: center;
+    .modal {
+      width: 100%;
+      height: calc(100vh - 72px);
+      background-color: rgba(0, 0, 0, 0.8);
+      position: fixed;
+      top: 72px;
+      left: 0;
+      visibility: hidden;
+      z-index: 2;
+      opacity: 0;
+      transition: visibility 0.5s linear, opacity 0.5s linear;
+
+      #modal-img {
+        height: 80vh;
+        object-fit: contain;
+        transform: scale(0);
+        transition: all linear 0.3s;
+        z-index: 3;
       }
-      h2 {
-        text-align: center;
-        font-size: 30px;
-        margin-top: 48px;
+
+
+      .modal-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
       }
-      p,
-      h2 {
-        margin: 12px 80px;
-        line-height: 25px;
+      .modal-background {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        position: absolute;
+        top: 0;
       }
+
+
+      #bt-close {
+        color: #fff;
+        background-color: #000;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        padding: 6px 12px;
+        font-size: 24px;
+        border: solid 1px #fff;
+        transition: all ease-out 0.4s;
+        cursor: pointer;
+        z-index: 3;
+
+      }
+      #bt-close:hover {
+        background-color: #f00;
+      }
+    }
+
+
+    .modal-active {
+      visibility: visible !important;
+      opacity: 1 !important;
+
+      #modal-img {
+        transform: scale(1);
+      }
+    }
+  }
+
+  .texto {
+    margin: 12px 64px;
+    p {
+      margin-top: 16px;
+      text-align: justify;
+      white-space: pre-wrap;
+      line-height: 1.5;
+    }
+    h2 {
+      text-align: center;
+      padding-top: 60px;
+    }
+  }
+
+  .galeria {
+    margin: 12px;
+    h2 {
+      text-align: center;
+      padding-top: 60px;
+    }
+
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .card-img {
+        width: 224px;
+        height: 224px;
+        overflow: hidden;
+        margin: 24px;
+        border-radius: 8px;
+        box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.3);
+        .small-img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          cursor: pointer;
+          transition: all linear 0.4s;
+        }
+        .small-img:hover {
+          filter: grayscale(100%);
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .localizacao {
+    margin-top: 64px;
+    p {
+      margin: 12px 0;
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 48px;
+    }
+    p,
+    h2 {
+      margin: 12px 80px;
+      line-height: 25px;
     }
   }
 
@@ -148,16 +247,31 @@ $image-height: 88%;
     .conteudo-aldeia {
       margin-top: 40px;
 
+      .modal {
+        #modal-img {
+          height: unset;
+          width: 90%;
+        }
+      }
+
       .flecha {
         left: 32px;
         top: 0;
         img {
           width: 56px;
-        };
+        }
       }
       .texto {
         margin: 12px 32px;
         text-align: justify;
+      }
+
+      .galeria {
+        .cards-container {
+          .card-img {
+            width: 100%;
+          }
+        }
       }
     }
 

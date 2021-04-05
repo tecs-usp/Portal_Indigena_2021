@@ -20,6 +20,7 @@ aldeias:
   titulo:
     sobre: About the Village
     historia: History
+    galeria: Gallery
     localizacao: Location
     contato: Contact
 
