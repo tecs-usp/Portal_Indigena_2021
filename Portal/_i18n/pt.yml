@@ -7,6 +7,34 @@ home:
   portal: Portal Indígena
   informacoes: Aqui você encontra informações sobre aldeias e resistências indígenas do Brasil.
   clique: Clique na foto de uma aldeia para saber mais.
+  sobre: 
+    titulo: Sobre o Projeto
+    poema: 
+      O Portal Indígena nasce da vontade de ouvir as vozes que vêm da aldeia.
+
+      Escutar suas histórias,
+
+      vivenciar suas tradições,
+
+      aprender com sua sabedoria.
+
+
+      Com muito respeito, compartilhamos.
+
+      Para assim, re-conhecer o mundo 
+
+      sentido pelos olhos e ouvidos da Floresta
+
+      e de quem a protege.
+
+
+      Aguyjevete!
+
+
+    texto1: O projeto Portal Indígena nasceu da parceria entre a 
+    texto2: e o 
+    texto3: em 2019.  
+    # texto4: Articulando constantemente com as vozes da aldeia, buscamos construir um  
 
 footer:
   texto: Todos os Direitos Reservados.

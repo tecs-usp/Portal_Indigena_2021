@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
     img {
       height: 64px;
     }
@@ -81,13 +82,102 @@
   display: none;
 }
 // footer
-.banner-footer {
+.footer-container {
   display: flex;
   justify-content: flex-end;
   background-color: rgba(88, 17, 17, 1);
   color: #ffffff;
   font-family: "Petrona Regular";
   padding: 1.5em 1em;
+  position: relative;
+}
+
+.language-selector,
+.language-selector-mobile {
+  position: relative;
+
+  .display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(white, 0.16);
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: default;
+    max-width: 240px;
+    color: white;
+    p {
+      padding: 4px 8px;
+      font-size: 22px;
+    }
+
+    .language-icon {
+      height: 30px;
+      padding: 2px 8px;
+      color: white;
+    }
+
+    .arrow-icon {
+      height: 12px;
+      padding: 2px 8px;
+      margin-top: 2px;
+    }
+  }
+
+  .options {
+    width: 100%;
+    background: #651313;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+
+    a {
+      cursor: pointer;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    &:hover,
+    &:focus-within {
+      .options {
+        height: 144px;
+        box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+}
+
+.go-up-container {
+  width: 100%;
+  margin: 64px 0;
+  display: flex;
+  justify-content: center;
+
+
+  button {
+    background: transparent;
+    border: 0;
+
+  }
+  .flecha {
+    cursor: pointer;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+
+    @media only screen and (min-width: 768px) {
+      &:hover {
+        transform: rotate(90deg) translate(-12px,) scale(1.05);
+        filter: invert(13%) sepia(26%) saturate(5687%) hue-rotate(343deg) brightness(90%) contrast(98%);  
+      }
+    }
+  }
+
+
 }
 
 .language-selector,
@@ -219,13 +309,14 @@
   }
 
   .language-selector-mobile {
-      position: absolute;
-      right: 12px;
+    position: absolute;
+    right: 12px;
+
     .display {
       padding: 6px;
       width: unset;
       cursor: pointer;
-      
+
       .language-icon {
         height: 20px;
         padding: 0;

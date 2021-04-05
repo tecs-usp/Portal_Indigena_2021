@@ -39,9 +39,6 @@ body {
     padding: 16px;
   }
 }
-
-
-
 .header-img-top {
   width: 100%;
   height: 60vh;
@@ -71,7 +68,7 @@ body {
 }
 
 .banner__text--orange {
-  color: #B35810;
+  color: #b35810;
 }
 
 .bottom-section {
@@ -80,6 +77,10 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   padding-bottom: 5%;
+
+  .flecha {
+    filter: invert(1);
+  }
 }
 
 .banner__section {
@@ -130,6 +131,48 @@ body {
   }
 }
 
+.about-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .about {
+    max-width: 1162px;
+    width: 100%;
+    margin: 80px;
+    padding: 32px;
+    background-color: rgba(white, 0.7);
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+
+    h2 {
+      font-size: 32px;
+      margin: 40px 0 64px 0;
+    }
+
+    .poema,
+    .texto {
+      white-space: pre-wrap;
+      font-size: 30px;
+      line-height: 180%;
+    }
+
+    .texto {
+      font-size: 26px;
+      a {
+        white-space: nowrap;
+      }
+    }
+
+    .pintura {
+      height: 20px;
+      margin: 56px 0;
+    }
+  }
+}
+
 @media only screen and (max-width: 768px) {
   body {
     font-size: 0.875em;
@@ -139,20 +182,44 @@ body {
     img {
       width: 72px;
     }
-
   }
 
   .cards {
     padding-bottom: 32px;
     .card-item {
       width: 100%;
-      margin: 32px 24px;
-  
+      margin: 32px 16px;
+
       .item-img {
         max-height: 240px;
       }
       .item-text {
         font-size: 1.8em;
+      }
+    }
+  }
+
+  .about-container {
+    .about {
+      margin: 16px;
+      padding: 40px 16px;
+      background-color: rgba(white, 0.8);
+
+      h2 {
+        font-size: 28px;
+        margin: 16px 0 40px 0;
+      }
+
+      .poema {
+        font-size: 22px;
+      }
+
+      .texto {
+        font-size: 20px;
+
+        a {
+          white-space: unset;
+        }
       }
     }
   }

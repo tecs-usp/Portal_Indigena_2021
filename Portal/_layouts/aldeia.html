@@ -13,7 +13,11 @@ maincss: "../css/main.css"
     </div>
   </div>
   <div class="conteudo">
+
     <div class="conteudo-aldeia">
+      <a href="{% t basepath %}" class="flecha">
+        <img src="../assets/img/flecha64.svg" alt="">
+      </a>
       <section id="sobre-aldeia" class="texto" aria-label="Sobre a aldeia">
         <h2>{% t aldeias.titulo.sobre %}</h2>
         <p>{% t aldeias.{{page.title}}.sobre %}</p>
@@ -41,6 +45,6 @@ maincss: "../css/main.css"
         ></iframe> -->
       </section>
     </div>
-    
+    {% include goUp.html %} 
   </div>
 </main>
