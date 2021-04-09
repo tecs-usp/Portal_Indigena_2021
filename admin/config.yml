@@ -15,7 +15,7 @@ collections:
     files:
       - label: "Português"
         name: "pt-BR"
-        file: "Portal/_i18n/pt.yml"
+        file: "/_i18n/pt.yml"
         fields:
           - label: Guaviraty
             name: guaviraty
@@ -37,7 +37,7 @@ collections:
               - { label: Historia da Aldeia, name: historia, widget: text }
       - label: "Guarani"
         name: "gn"
-        file: "Portal/_i18n/gn.yml"
+        file: "/_i18n/gn.yml"
         fields:
           - label: Guaviraty
             name: guaviraty
@@ -59,7 +59,7 @@ collections:
               - { label: Historia da Aldeia, name: historia, widget: text }
       - label: "English"
         name: "en"
-        file: "Portal/_i18n/en.yml"
+        file: "/_i18n/en.yml"
         fields:
           - label: Guaviraty
             name: guaviraty
@@ -86,7 +86,7 @@ collections:
     files:
       - label: "Aldeias"
         name: "aldeias"
-        file: "Portal/_data/aldeias.yml"
+        file: "/_data/aldeias.yml"
         fields:
           - label: Guaviraty
             name: guaviraty
