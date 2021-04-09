@@ -1,0 +1,128 @@
+backend:
+  name: github
+  repo: tecs-usp/Portal_Indigena_2021
+  branch: galeria_imagens # Branch to update (optional; defaults to master)
+  site_domain: portalindigena.web.app
+site_url: https://portalindigena.web.app
+publish_mode: editorial_workflow
+media_folder: "/assets/img"
+logo_url: https://portalindigena.web.app/assets/img/Logo_Vetor2.png
+locale: "pt"
+collections:
+  - name: textos
+    label: "Textos das aldeias"
+    description: Para editar o conteúdo do site, selecionar o idioma e editar os textos "Sobre a Aldeia" e "História da Aldeia"
+    files:
+      - label: "Português"
+        name: "pt-BR"
+        file: "Portal/_i18n/pt.yml"
+        fields:
+          - label: Guaviraty
+            name: guaviraty
+            widget: object
+            fields:
+              - { label: Sobre a Aldeia, name: sobre, widget: text }
+              - { label: Historia da Aldeia, name: historia, widget: text }
+          - label: Tangará
+            name: tangara
+            widget: object
+            fields:
+              - { label: Sobre a Aldeia, name: sobre, widget: text }
+              - { label: Historia da Aldeia, name: historia, widget: text }
+          - label: Yrexakã
+            name: yrexaka
+            widget: object
+            fields:
+              - { label: Sobre a Aldeia, name: sobre, widget: text }
+              - { label: Historia da Aldeia, name: historia, widget: text }
+      - label: "Guarani"
+        name: "gn"
+        file: "Portal/_i18n/gn.yml"
+        fields:
+          - label: Guaviraty
+            name: guaviraty
+            widget: object
+            fields:
+              - { label: Sobre a Aldeia, name: sobre, widget: text }
+              - { label: Historia da Aldeia, name: historia, widget: text }
+          - label: Tangará
+            name: tangara
+            widget: object
+            fields:
+              - { label: Sobre a Aldeia, name: sobre, widget: text }
+              - { label: Historia da Aldeia, name: historia, widget: text }
+          - label: Yrexakã
+            name: yrexaka
+            widget: object
+            fields:
+              - { label: Sobre a Aldeia, name: sobre, widget: text }
+              - { label: Historia da Aldeia, name: historia, widget: text }
+      - label: "English"
+        name: "en"
+        file: "Portal/_i18n/en.yml"
+        fields:
+          - label: Guaviraty
+            name: guaviraty
+            widget: object
+            fields:
+              - { label: Sobre a Aldeia, name: sobre, widget: text }
+              - { label: Historia da Aldeia, name: historia, widget: text }
+          - label: Tangará
+            name: tangara
+            widget: object
+            fields:
+              - { label: Sobre a Aldeia, name: sobre, widget: text }
+              - { label: Historia da Aldeia, name: historia, widget: text }
+          - label: Yrexakã
+            name: yrexaka
+            widget: object
+            fields:
+              - { label: Sobre a Aldeia, name: sobre, widget: text }
+              - { label: Historia da Aldeia, name: historia, widget: text }
+
+  - name: informacoes
+    label: "Informações sobre as Aldeias"
+    description: Para editar o conteúdo do site, selecionar a aldeia e editar os textos.
+    files:
+      - label: "Aldeias"
+        name: "aldeias"
+        file: "Portal/_data/aldeias.yml"
+        fields:
+          - label: Guaviraty
+            name: guaviraty
+            widget: object
+            fields:
+              - { label: Contato, name: contato, widget: text }
+              - { label: Localização, name: localizacao, widget: text }
+              - { label: Foto de capa, name: img, widget: image }
+              - { label: Texto Alt da foto de capa, name: alt, widget: text }
+              - label: Fotos da Galeria
+                name: fotos
+                widget: list
+                field: { label: Imagem, name: image, widget: image }
+
+          - label: Tangará
+            name: tangara
+            widget: object
+            fields:
+              - { label: Contato, name: contato, widget: text }
+              - { label: Localização, name: localizacao, widget: text }
+              - { label: Foto de capa, name: img, widget: image }
+              - { label: Texto Alt da foto de capa, name: alt, widget: text }
+              - label: Fotos da Galeria
+                name: fotos
+                widget: list
+                field: { label: Imagem, name: image, widget: image }
+
+          - label: Yrexakã
+            name: yrexaka
+            widget: object
+            fields:
+              - { label: Contato, name: contato, widget: text }
+              - { label: Localização, name: localizacao, widget: text }
+              - { label: Foto de capa, name: img, widget: image }
+              - { label: Texto Alt da foto de capa, name: alt, widget: text }
+              - label: Fotos da Galeria
+                name: fotos
+                widget: list
+                field: { label: Imagem, name: image, widget: image }
