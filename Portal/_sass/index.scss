@@ -154,19 +154,20 @@ body {
     border-radius: 4px;
 
     h2 {
-      font-size: 32px;
+      font-size: 28px;
       margin: 40px 0 64px 0;
     }
 
     .poema,
     .texto {
       white-space: pre-wrap;
-      font-size: 30px;
+      font-size: 24px;
       line-height: 180%;
     }
 
     .texto {
-      font-size: 26px;
+      font-size: 22px;
+      white-space: inherit;
       a {
         white-space: nowrap;
       }

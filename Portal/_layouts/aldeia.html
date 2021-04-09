@@ -30,19 +30,19 @@ maincss: "../css/main.css"
         <img src="../assets/img/flecha64.svg" alt="" />
       </a>
       <section id="sobre-aldeia" class="texto" aria-label="Sobre a aldeia">
-        <h2>{% t aldeias.titulo.sobre %}</h2>
-        <p>{% t aldeias.{{page.namespace}}.sobre %}</p>
+        <h2>{% t titulo.sobre %}</h2>
+        <p>{% t {{page.namespace}}.sobre %}</p>
       </section>
       <section
         id="historia-aldeia"
         class="texto"
         aria-label="História da aldeia"
       >
-        <h2>{% t aldeias.titulo.historia %}</h2>
-        <p>{% t aldeias.{{page.namespace}}.historia %}</p>
+        <h2>{% t titulo.historia %}</h2>
+        <p>{% t {{page.namespace}}.historia %}</p>
       </section>
       <section id="galeria-aldeia" class="galeria" aria-label="">
-        <h2>{% t aldeias.titulo.galeria %}</h2>
+        <h2>{% t titulo.galeria %}</h2>
 
         <div class="cards-container">
 
@@ -58,11 +58,11 @@ maincss: "../css/main.css"
         </div>
       </section>
       <section id="contato" class="localizacao" aria-label="Contato">
-        <h2>{% t aldeias.titulo.contato %}</h2>
+        <h2>{% t titulo.contato %}</h2>
         <p>{{ site.data.aldeias[page.namespace].contato }}</p>
       </section>
       <section id="localizacao" class="localizacao" aria-label="Localização">
-        <h2>{% t aldeias.titulo.localizacao %}</h2>
+        <h2>{% t titulo.localizacao %}</h2>
         <p>{{ site.data.aldeias[page.namespace].localizacao }}</p>
         <!-- <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.940517845596!2d-46.53552838564223!3d-23.498651884714057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5fc72b869e3b%3A0x89d32be43e9f4707!2sR.%20Castelo%20Branco%20-%20Cangaiba%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1596237872153!5m2!1spt-BR!2sbr"
