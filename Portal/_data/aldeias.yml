@@ -10,7 +10,7 @@ guaviraty:
     - /assets/img/oca_aldeia.jpg
     - /assets/img/foto_em_grupo_aldeia.jpg
     - /assets/img/Rede_em_evento.jpeg
-
+    - /Portal/assets/img/aldeia_panoramica_mobile.jpeg
 tangara:
   name: Tangará
   link: tangara
@@ -23,8 +23,6 @@ tangara:
     - /assets/img/criancas.jpeg
     - /assets/img/Imagem_casa_inicio_vermelha.jpg
     - /assets/img/Rede_em_evento.jpeg
-
-
 yrexaka:
   name: Yrexakã
   link: yrexaka
@@ -36,8 +34,6 @@ yrexaka:
   fotos:
     - /assets/img/habitacao_yrexaka.jpg
     - /assets/img/imagem_fundo_blur.jpeg
-
-
 lista:
   - guaviraty
   - tangara
