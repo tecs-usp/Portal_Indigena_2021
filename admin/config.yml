@@ -4,6 +4,7 @@ backend:
   branch: galeria_imagens # Branch to update (optional; defaults to master)
   site_domain: portalindigena.web.app
 site_url: https://portalindigena.web.app
+base_url: https://api.netlify.com
 publish_mode: editorial_workflow
 media_folder: "/assets/img"
 logo_url: https://portalindigena.web.app/assets/img/Logo_Vetor2.png

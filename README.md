@@ -14,7 +14,7 @@ O conteúdo _traduzível_ está na pasta \_i18n - textos sobre a aldeia e histó
 
 ### - Sobre o Jekyll
 
-O projeto utiliza o Jekyll para gerar o conteúdo do site. Para iniciar o servidor, entrar na pasta `Portal` e rodar o comando `bundle exec jekyll serve`. O servidor abre automaticamneente no endereço http://localhost:4000".
+O projeto utiliza o Jekyll para gerar o conteúdo do site. Para iniciar o servidor, basta rodar o comando `bundle exec jekyll serve`. O servidor abre automaticamneente no endereço http://localhost:4000".
 
 Instruções para instalar o Jekyll em https://jekyllrb.com/docs/
 
